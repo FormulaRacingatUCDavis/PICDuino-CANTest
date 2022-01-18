@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production\PIC18_CanRxTest.X.production.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>30464</length>
+      <used>2070</used>
+      <free>28394</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>4096</length>
+      <used>50</used>
+      <free>4046</free>
+    </memory>
+  </executable>
+</project>
