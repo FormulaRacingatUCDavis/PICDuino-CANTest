@@ -1,51 +1,26 @@
 /**
-  Generated Main Source File
-
-  Company:
-    Microchip Technology Inc.
-
-  File Name:
-    main.c
-
-  Summary:
-    This is the main file generated using PIC10 / PIC12 / PIC16 / PIC18 MCUs
-
-  Description:
-    This header file provides implementations for driver APIs for all modules selected in the GUI.
-    Generation Information :
-        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.81.7
-        Device            :  PIC18F26K83
-        Driver Version    :  2.00
-*/
-
-/*
-    (c) 2018 Microchip Technology Inc. and its subsidiaries. 
-    
-    Subject to your compliance with these terms, you may use Microchip software and any 
-    derivatives exclusively with Microchip products. It is your responsibility to comply with third party 
-    license terms applicable to your use of third party software (including open source software) that 
-    may accompany Microchip software.
-    
-    THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS". NO WARRANTIES, WHETHER 
-    EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING ANY 
-    IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS 
-    FOR A PARTICULAR PURPOSE.
-    
-    IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, 
-    INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND 
-    WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP 
-    HAS BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO 
-    THE FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL 
-    CLAIMS IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT 
-    OF FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS 
-    SOFTWARE.
-*/
+ * PICduino CAN Receive Testing
+ */
 
 #include "mcc_generated_files/mcc.h"
+#include <stdio.h>
+
+typedef enum {
+    VEHICLE_STATE = 0x0c0,
+    SWITCHES = 0x0d0,
+    TORQUE_REQUEST_COMMAND = 0x766,
+    BMS_STATUS = 0x380,
+    BMS_VOLTAGES = 0x388,
+    BMS_TEMPERATURES = 0x389
+} CAN_ID;
+
+// print name of CAN message
+void print_can_name(CAN_ID id);
 
 /*
                          Main application
  */
+
 void main(void)
 {
     
@@ -63,21 +38,70 @@ void main(void)
     //INTERRUPT_GlobalInterruptDisable();
 
     uCAN_MSG msg;
+    uCAN_MSG tx_msg;
+    tx_msg.frame.idType = dSTANDARD_CAN_MSG_ID_2_0B;
+    tx_msg.frame.id = SWITCHES;
+    tx_msg.frame.dlc = 0x01;
+    tx_msg.frame.data0 = 0b10;
+    
+    uint8_t count = 0;    
     
     while (1)
     {
         if(CAN_receive(&msg)){
-            IO_RA0_Toggle();
-            
-            for(int i = 0; i < (msg.frame.dlc + 5); i++){
-                while(!UART1_is_tx_ready());
-                UART1_Write(msg.array);
+            printf("CAN Message received: ");
+            print_can_name(msg.frame.id);
+            printf("\n");
+            printf("ID: 0x%lx\n", msg.frame.id);
+            for(uint8_t i = 0; i < msg.frame.dlc; i++){
+                printf("data%d: %d\n", i, msg.array[i+6]);
             }
-            
-            IO_RA0_Toggle();
+            printf("\n");
+        } else {
+            printf("No Message received:\n");
         }
+        
+        // transmit
+        if (!(count % 100)) {
+            if(CAN_transmit(&tx_msg)){
+                IO_RA0_Toggle();
+                printf("Sending %d on ID: 0x%lx\n", tx_msg.frame.data0, tx_msg.frame.id);
+            }
+            if (tx_msg.frame.data0 == 0b10) {
+                tx_msg.frame.data0 = 0;
+            } else {
+                tx_msg.frame.data0 = 0b10;
+            }
+        }
+        count++;
+        __delay_ms(100);
     }
 }
+
+// print name of CAN message
+void print_can_name(CAN_ID msg_id) {
+    switch(msg_id) {
+        case VEHICLE_STATE:
+            printf("Vehicle_State");
+            break;
+        case SWITCHES:
+            printf("Driver_Switches");
+            break;
+        case TORQUE_REQUEST_COMMAND:
+            printf("Torque_Request_Command");
+            break;
+        case BMS_STATUS:
+            printf("BMS_Status");
+            break;
+        case BMS_VOLTAGES:
+            printf("BMS_Voltages");
+            break;
+        case BMS_TEMPERATURES:
+            printf("BMS_Temperatures");
+            break;
+    }
+}
+
 /**
  End of File
 */

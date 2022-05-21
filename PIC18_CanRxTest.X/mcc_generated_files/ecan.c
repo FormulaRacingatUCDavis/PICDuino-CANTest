@@ -130,17 +130,17 @@ void ECAN_Initialize(void)
     */
     
   	/**
-        Baud rate: 20kbps
+        Baud rate: 125kbps
         System frequency: 64000000
         ECAN clock frequency: 64000000
-        Time quanta: 25
-        Sample point: 1-8-8-8
-        Sample point: 68%
+        Time quanta: 8
+        Sample point: 1-1-4-2
+        Sample point: 75%
 	*/ 
     
-    BRGCON1 = 0x3F;
-    BRGCON2 = 0xBF;
-    BRGCON3 = 0x07;
+    BRGCON1 = 0x1F;
+    BRGCON2 = 0x98;
+    BRGCON3 = 0x01;
     
     ECAN_SetWakeUpInterruptHandler(WakeUpDefaultInterruptHandler);
     PIR5bits.WAKIF = 0;
