@@ -36394,8 +36394,7 @@ __attribute__((__unsupported__("The READTIMER" "3" "() macro is not available wi
 unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 # 34 "/Applications/microchip/mplabx/v6.00/packs/Microchip/PIC18F-K_DFP/1.5.114/xc8/pic/include/xc.h" 2 3
-# 51 "mcc_generated_files/ecan.c" 2
-
+# 52 "mcc_generated_files/ecan.c" 2
 # 1 "mcc_generated_files/ecan.h" 1
 # 54 "mcc_generated_files/ecan.h"
 # 1 "/Applications/microchip/xc8/v2.31/pic/include/c99/stdbool.h" 1 3
@@ -36445,8 +36444,7 @@ uint8_t CAN_isTXErrorPassive(void);
 void ECAN_SetWakeUpInterruptHandler(void (*handler)(void));
 # 331 "mcc_generated_files/ecan.h"
 void ECAN_WAKI_ISR(void);
-# 52 "mcc_generated_files/ecan.c" 2
-
+# 53 "mcc_generated_files/ecan.c" 2
 
 static void (*WakeUpInterruptHandler)(void);
 

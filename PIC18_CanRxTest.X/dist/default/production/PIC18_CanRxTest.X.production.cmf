@@ -11,62 +11,59 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$dist/default/production/PIC18_CanRxTest.X.production.o
-ivt0x8 CODE 0 8 8 12 1
-cinit CODE 0 3228 3228 24 1
-idloc IDLOC 5 200000 200000 10 1
-text0 CODE 0 2256 2256 1C6 1
-text1 CODE 0 2BB2 2BB2 D0 1
-text2 CODE 0 3200 3200 28 1
-text3 CODE 0 2F6E 2F6E 66 1
-text4 CODE 0 10BE 10BE 5C0 1
-text5 CODE 0 1CC2 1CC2 2DC 1
-text6 CODE 0 3038 3038 5E 1
-text7 CODE 0 3190 3190 38 1
-text8 CODE 0 31C8 31C8 38 1
-text9 CODE 0 311A 311A 3C 1
-text10 CODE 0 29DA 29DA FA 1
-text11 CODE 0 19DE 19DE 2E4 1
-text12 CODE 0 2C82 2C82 C6 1
-text13 CODE 0 3156 3156 3A 1
-text14 CODE 0 3096 3096 44 1
-text15 CODE 0 2DF8 2DF8 96 1
-text16 CODE 0 3302 3302 A 1
-text17 CODE 0 32B6 32B6 1A 1
-text18 CODE 0 30DA 30DA 40 1
-text19 CODE 0 273C 273C 164 1
-text20 CODE 0 25B4 25B4 188 1
-text21 CODE 0 2D48 2D48 B0 1
-text22 CODE 0 32D0 32D0 1A 1
-text23 CODE 0 2F06 2F06 68 1
-text24 CODE 0 330C 330C A 1
-text25 CODE 0 3316 3316 A 1
-text26 CODE 0 3320 3320 A 1
-text27 CODE 0 324C 324C 24 1
-text28 CODE 0 2FD4 2FD4 64 1
-text29 CODE 0 32EA 32EA 18 1
-text30 CODE 0 3334 3334 4 1
-text31 CODE 0 2AD4 2AD4 DE 1
-text32 CODE 0 332A 332A A 1
-text33 CODE 0 167E 167E 360 1
-text34 CODE 0 241C 241C 198 1
-text35 CODE 0 1F9E 1F9E 2B8 1
-text36 CODE 0 2E8E 2E8E 78 1
-text37 CODE 0 28A0 28A0 13A 1
-text38 CODE 0 3270 3270 24 1
-text39 CODE 0 3294 3294 22 1
-text40 CODE 0 3338 3338 2 1
-nvBANK0 BANK0 1 CE CE 6 1
-cstackCOMRAM COMRAM 1 1 1 5E 1
-cstackBANK0 BANK0 1 60 60 44 1
-bssBANK0 BANK0 1 A4 A4 2A 1
-smallconst SMALLCONST 0 1000 1000 BE 1
-bssCOMRAM COMRAM 1 5F 5F 1 1
-config CONFIG 4 300000 300000 A 1
-$/tmp/xcKeXzM0M.o
+$/tmp/xcDGZPeAJ.o
 idloc IDLOC 5 200000 200000 10 1
 init CODE 0 7FFC 7FFC 4 1
 reset_vec CODE 0 0 0 4 1
+config CONFIG 4 300000 300000 A 1
+$dist/default/production/PIC18_CanRxTest.X.production.o
+ivt0x8 CODE 0 8 8 12 1
+cinit CODE 0 62EE 62EE 24 1
+idloc IDLOC 5 200000 200000 10 1
+text0 CODE 0 69E0 69E0 11A 1
+text1 CODE 0 6F20 6F20 1A2 1
+text2 CODE 0 6312 6312 28 1
+text3 CODE 0 6566 6566 66 1
+text4 CODE 0 793A 793A 5C0 1
+text5 CODE 0 737A 737A 2DC 1
+text6 CODE 0 64A4 64A4 5E 1
+text7 CODE 0 6372 6372 38 1
+text8 CODE 0 633A 633A 38 1
+text9 CODE 0 63E4 63E4 3C 1
+text10 CODE 0 68E6 68E6 FA 1
+text11 CODE 0 7656 7656 2E4 1
+text12 CODE 0 6742 6742 C6 1
+text13 CODE 0 63AA 63AA 3A 1
+text14 CODE 0 6460 6460 44 1
+text15 CODE 0 66AC 66AC 96 1
+text16 CODE 0 622E 622E A 1
+text17 CODE 0 626A 626A 1A 1
+text18 CODE 0 6420 6420 40 1
+text19 CODE 0 6C34 6C34 164 1
+text20 CODE 0 6D98 6D98 188 1
+text21 CODE 0 6250 6250 1A 1
+text22 CODE 0 65CC 65CC 68 1
+text23 CODE 0 6224 6224 A 1
+text24 CODE 0 621A 621A A 1
+text25 CODE 0 6210 6210 A 1
+text26 CODE 0 62CA 62CA 24 1
+text27 CODE 0 6502 6502 64 1
+text28 CODE 0 6238 6238 18 1
+text29 CODE 0 6202 6202 4 1
+text30 CODE 0 6808 6808 DE 1
+text31 CODE 0 6206 6206 A 1
+text32 CODE 0 70C2 70C2 2B8 1
+text33 CODE 0 6634 6634 78 1
+text34 CODE 0 6AFA 6AFA 13A 1
+text35 CODE 0 62A6 62A6 24 1
+text36 CODE 0 6284 6284 22 1
+text37 CODE 0 6200 6200 2 1
+nvBANK0 BANK0 1 CB CB 6 1
+cstackCOMRAM COMRAM 1 1 1 5E 1
+cstackBANK0 BANK0 1 60 60 41 1
+bssBANK0 BANK0 1 A1 A1 2A 1
+bssCOMRAM COMRAM 1 5F 5F 1 1
+mediumconst MEDIUMCONST 0 7EFA 7EFA 102 1
 config CONFIG 4 300000 300000 A 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
@@ -74,9 +71,9 @@ config CONFIG 4 300000 300000 A 1
 #    <class name> <range> <delta>
 # Addresses given in the range are in hexadecimal and units of delta.
 %UNUSED
-RAM D4-FFF 1
+RAM D1-FFF 1
 SFR 3700-3FFF 1
-BANK0 D4-FF 1
+BANK0 D1-FF 1
 BANK1 100-1FF 1
 BANK2 200-2FF 1
 BANK3 300-3FF 1
@@ -86,21 +83,19 @@ BANK6 600-6FF 1
 BANK7 700-7FF 1
 BANK8 800-8FF 1
 BANK9 900-9FF 1
-CONST 900-FFF 1
-CONST 333A-7FFB 1
-STACK D4-FFF 1
-SMALLCONST 333A-7FFB 1
-CODE 900-FFF 1
-CODE 333A-7FFB 1
+CONST 900-61FF 1
+STACK D1-FFF 1
+SMALLCONST 1000-61FF 1
+CODE 900-61FF 1
 BANK10 A00-AFF 1
 BANK11 B00-BFF 1
 BANK12 C00-CFF 1
 BANK13 D00-DFF 1
 BANK14 E00-EFF 1
 BANK15 F00-FFF 1
-BIGRAM D4-FFF 1
+BIGRAM D1-FFF 1
 EEDATA 310000-3103FF 1
-MEDIUMCONST 333A-7FFB 1
+MEDIUMCONST 1000-61FF 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -115,585 +110,490 @@ MEDIUMCONST 333A-7FFB 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production/PIC18_CanRxTest.X.production.o
-3338 text40 CODE >63:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-3294 text39 CODE >444:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-3294 text39 CODE >446:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-32B0 text39 CODE >447:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-32B4 text39 CODE >448:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-3270 text38 CODE >58:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/interrupt_manager.c
-3270 text38 CODE >61:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/interrupt_manager.c
-328E text38 CODE >63:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/interrupt_manager.c
-3292 text38 CODE >69:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/interrupt_manager.c
-28A0 text37 CODE >368:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-28A2 text37 CODE >370:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-28A2 text37 CODE >371:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-28B2 text37 CODE >375:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-28B8 text37 CODE >376:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-28C0 text37 CODE >377:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-28EA text37 CODE >378:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2902 text37 CODE >379:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2934 text37 CODE >380:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-294C text37 CODE >381:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-296A text37 CODE >382:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2982 text37 CODE >383:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-29A0 text37 CODE >384:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-29B8 text37 CODE >385:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-29C8 text37 CODE >386:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-29D8 text37 CODE >387:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2E8E text36 CODE >389:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2E90 text36 CODE >391:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2E90 text36 CODE >396:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2EBA text36 CODE >397:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2EE4 text36 CODE >398:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2EF4 text36 CODE >399:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2F04 text36 CODE >400:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1F9E text35 CODE >243:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1F9E text35 CODE >245:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1FA2 text35 CODE >248:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1FB0 text35 CODE >250:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1FBE text35 CODE >253:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1FCE text35 CODE >254:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-200A text35 CODE >255:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-200E text35 CODE >259:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-201E text35 CODE >260:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-204E text35 CODE >263:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2060 text35 CODE >264:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2072 text35 CODE >265:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2084 text35 CODE >266:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2096 text35 CODE >267:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-20A8 text35 CODE >268:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-20BA text35 CODE >269:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-20CC text35 CODE >270:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-20DE text35 CODE >271:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-20F0 text35 CODE >272:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-20F2 text35 CODE >273:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-20F6 text35 CODE >274:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-20FA text35 CODE >275:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-210A text35 CODE >277:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2118 text35 CODE >280:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2128 text35 CODE >281:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2164 text35 CODE >282:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2168 text35 CODE >286:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2178 text35 CODE >287:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-21A8 text35 CODE >290:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-21BA text35 CODE >291:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-21CC text35 CODE >292:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-21DE text35 CODE >293:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-21F0 text35 CODE >294:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2202 text35 CODE >295:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2214 text35 CODE >296:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2226 text35 CODE >297:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2238 text35 CODE >298:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-224A text35 CODE >299:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2252 text35 CODE >302:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2254 text35 CODE >303:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-241C text34 CODE >402:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-241C text34 CODE >404:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-241C text34 CODE >406:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-242E text34 CODE >409:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2440 text34 CODE >410:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-246E text34 CODE >413:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2480 text34 CODE >414:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-24AE text34 CODE >418:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-24B4 text34 CODE >419:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-24E6 text34 CODE >420:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-24EE text34 CODE >421:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-24F4 text34 CODE >422:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2506 text34 CODE >425:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2534 text34 CODE >426:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2546 text34 CODE >427:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-254A text34 CODE >430:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-255A text34 CODE >431:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-256A text34 CODE >432:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-259C text34 CODE >433:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-25B2 text34 CODE >437:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-167E text33 CODE >165:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-167E text33 CODE >166:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1682 text33 CODE >167:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1686 text33 CODE >168:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-168A text33 CODE >169:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-168E text33 CODE >171:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1692 text33 CODE >173:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-16A2 text33 CODE >175:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-16FA text33 CODE >177:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1700 text33 CODE >178:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1706 text33 CODE >179:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-170C text33 CODE >180:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1712 text33 CODE >181:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1724 text33 CODE >182:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1734 text33 CODE >183:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1744 text33 CODE >184:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1754 text33 CODE >185:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1764 text33 CODE >186:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1774 text33 CODE >187:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1784 text33 CODE >188:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1794 text33 CODE >189:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-17A4 text33 CODE >191:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-17A6 text33 CODE >192:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-17AA text33 CODE >194:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-17AE text33 CODE >195:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-17BC text33 CODE >198:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1814 text33 CODE >200:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-181A text33 CODE >201:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1820 text33 CODE >202:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1826 text33 CODE >203:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-182C text33 CODE >204:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-183E text33 CODE >205:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-184E text33 CODE >206:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-185E text33 CODE >207:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-186E text33 CODE >208:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-187E text33 CODE >209:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-188E text33 CODE >210:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-189E text33 CODE >211:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-18AE text33 CODE >212:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-18BE text33 CODE >214:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-18C4 text33 CODE >217:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-18D2 text33 CODE >220:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-192A text33 CODE >222:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1930 text33 CODE >223:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1936 text33 CODE >224:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-193C text33 CODE >225:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1942 text33 CODE >226:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1954 text33 CODE >227:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1964 text33 CODE >228:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1974 text33 CODE >229:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1984 text33 CODE >230:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-1994 text33 CODE >231:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-19A4 text33 CODE >232:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-19B4 text33 CODE >233:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-19C4 text33 CODE >234:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-19D4 text33 CODE >236:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-19DA text33 CODE >240:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-19DC text33 CODE >241:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-332A text32 CODE >439:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-332A text32 CODE >441:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-3332 text32 CODE >442:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2AD4 text31 CODE >65:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2AD4 text31 CODE >67:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2AD8 text31 CODE >68:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2AEC text31 CODE >73:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2AF0 text31 CODE >78:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2AF6 text31 CODE >91:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2AFA text31 CODE >92:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2AFE text31 CODE >93:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B02 text31 CODE >94:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B06 text31 CODE >95:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B0A text31 CODE >96:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B0E text31 CODE >97:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B12 text31 CODE >98:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B16 text31 CODE >103:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B1A text31 CODE >104:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B1E text31 CODE >105:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B22 text31 CODE >106:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B26 text31 CODE >107:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B2A text31 CODE >108:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B2E text31 CODE >109:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B32 text31 CODE >110:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B36 text31 CODE >111:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B3A text31 CODE >112:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B3E text31 CODE >113:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B42 text31 CODE >114:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B46 text31 CODE >115:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B4A text31 CODE >116:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B4E text31 CODE >117:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B52 text31 CODE >118:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B56 text31 CODE >119:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B5A text31 CODE >120:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B5E text31 CODE >121:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B62 text31 CODE >122:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B66 text31 CODE >123:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B6A text31 CODE >124:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B6E text31 CODE >125:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B72 text31 CODE >126:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B76 text31 CODE >141:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B7A text31 CODE >142:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B7E text31 CODE >143:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B82 text31 CODE >145:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B8E text31 CODE >146:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B92 text31 CODE >147:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B94 text31 CODE >149:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2B98 text31 CODE >150:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-2BB0 text31 CODE >152:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
-3334 text30 CODE >52:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/interrupt_manager.c
-3334 text30 CODE >55:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/interrupt_manager.c
-3336 text30 CODE >56:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/interrupt_manager.c
-32EA text29 CODE >60:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-32EA text29 CODE >63:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-32F0 text29 CODE >65:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-32F4 text29 CODE >67:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-32F8 text29 CODE >69:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-32FC text29 CODE >71:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-3300 text29 CODE >72:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-2FD4 text28 CODE >55:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-2FD4 text28 CODE >60:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-2FD8 text28 CODE >61:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-2FDC text28 CODE >62:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-2FE0 text28 CODE >67:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-2FE4 text28 CODE >68:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-2FE8 text28 CODE >69:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-2FEC text28 CODE >74:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-2FF2 text28 CODE >75:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-2FF6 text28 CODE >76:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-2FFA text28 CODE >81:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-2FFE text28 CODE >82:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-3002 text28 CODE >83:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-3006 text28 CODE >84:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-300A text28 CODE >89:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-300E text28 CODE >90:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-3012 text28 CODE >91:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-3016 text28 CODE >96:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-3018 text28 CODE >97:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-301A text28 CODE >98:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-301C text28 CODE >103:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-301E text28 CODE >104:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-3020 text28 CODE >105:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-3022 text28 CODE >106:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-3026 text28 CODE >115:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-302A text28 CODE >116:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-302E text28 CODE >117:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-3032 text28 CODE >118:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-3036 text28 CODE >119:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
-324C text27 CODE >74:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-324C text27 CODE >77:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-3252 text27 CODE >79:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-3256 text27 CODE >81:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-325A text27 CODE >83:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-325E text27 CODE >85:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-3262 text27 CODE >87:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-3266 text27 CODE >89:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-326A text27 CODE >91:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-326E text27 CODE >92:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-3320 text26 CODE >208:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-3320 text26 CODE >209:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-3328 text26 CODE >210:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-3316 text25 CODE >200:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-3316 text25 CODE >201:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-331E text25 CODE >202:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-330C text24 CODE >204:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-330C text24 CODE >205:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-3314 text24 CODE >206:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F06 text23 CODE >66:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F06 text23 CODE >73:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F0C text23 CODE >76:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F10 text23 CODE >79:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F14 text23 CODE >82:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F18 text23 CODE >85:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F1C text23 CODE >88:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F20 text23 CODE >91:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F24 text23 CODE >94:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F28 text23 CODE >97:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F2C text23 CODE >100:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F30 text23 CODE >103:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F34 text23 CODE >106:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F38 text23 CODE >109:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F3C text23 CODE >112:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F40 text23 CODE >115:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F44 text23 CODE >118:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F50 text23 CODE >119:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F5C text23 CODE >120:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F68 text23 CODE >122:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2F6C text23 CODE >124:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-32D0 text22 CODE >50:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-32D0 text22 CODE >52:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-32D4 text22 CODE >53:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-32D8 text22 CODE >54:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-32DC text22 CODE >55:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-32E0 text22 CODE >56:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-32E4 text22 CODE >57:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-32E8 text22 CODE >58:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
-2D48 text21 CODE >7:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2D48 text21 CODE >12:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2D4C text21 CODE >13:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2D5A text21 CODE >14:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2D62 text21 CODE >15:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2D66 text21 CODE >17:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2D74 text21 CODE >18:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2D7C text21 CODE >19:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2D8E text21 CODE >20:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2D92 text21 CODE >21:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2D96 text21 CODE >22:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2D9C text21 CODE >23:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2D9E text21 CODE >21:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2DAC text21 CODE >26:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2DC2 text21 CODE >27:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2DCA text21 CODE >28:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2DD0 text21 CODE >29:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2DD6 text21 CODE >31:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2DE6 text21 CODE >32:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2DEE text21 CODE >33:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-2DF6 text21 CODE >34:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-25B4 text20 CODE >9:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-25B4 text20 CODE >15:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-25B8 text20 CODE >16:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-25C6 text20 CODE >17:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-25E6 text20 CODE >18:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-25EA text20 CODE >20:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-25F8 text20 CODE >21:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-2618 text20 CODE >22:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-261C text20 CODE >24:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-2628 text20 CODE >25:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-2646 text20 CODE >26:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-264A text20 CODE >27:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-264E text20 CODE >28:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-2660 text20 CODE >29:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-2662 text20 CODE >27:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-2670 text20 CODE >32:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-2682 text20 CODE >33:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-26B0 text20 CODE >34:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-26D0 text20 CODE >35:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-26D2 text20 CODE >37:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-26E4 text20 CODE >38:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-26EA text20 CODE >40:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-26FA text20 CODE >41:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-271A text20 CODE >42:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-273A text20 CODE >43:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
-273C text19 CODE >9:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-273C text19 CODE >14:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-2740 text19 CODE >15:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-274E text19 CODE >16:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-276E text19 CODE >17:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-2772 text19 CODE >19:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-2780 text19 CODE >20:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-27A0 text19 CODE >21:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-27BE text19 CODE >22:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-27C2 text19 CODE >23:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-27C6 text19 CODE >24:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-27D8 text19 CODE >25:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-27DA text19 CODE >23:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-27E8 text19 CODE >28:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-2816 text19 CODE >29:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-2836 text19 CODE >30:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-2848 text19 CODE >31:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-284E text19 CODE >33:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-285E text19 CODE >34:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-287E text19 CODE >35:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-289E text19 CODE >36:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
-30DA text18 CODE >1:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/abs.c
-30DA text18 CODE >3:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/abs.c
-3118 text18 CODE >4:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/abs.c
-32B6 text17 CODE >170:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-32B8 text17 CODE >172:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-32B8 text17 CODE >174:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-32C8 text17 CODE >176:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-32CE text17 CODE >177:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-3302 text16 CODE >184:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-3304 text16 CODE >186:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-330A text16 CODE >187:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
-2DF8 text15 CODE >8:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputc.c
-2DF8 text15 CODE >12:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputc.c
-2E1C text15 CODE >13:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputc.c
-2E22 text15 CODE >14:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputc.c
-2E26 text15 CODE >15:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputc.c
-2E7A text15 CODE >20:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputc.c
-2E8C text15 CODE >24:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputc.c
-3096 text14 CODE >8:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputs.c
-3096 text14 CODE >13:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputs.c
-309E text14 CODE >14:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputs.c
-30A2 text14 CODE >15:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputs.c
-30B4 text14 CODE >16:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputs.c
-30B8 text14 CODE >14:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputs.c
-30D8 text14 CODE >19:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputs.c
-3156 text13 CODE >5:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strlen.c
-3156 text13 CODE >7:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strlen.c
-315E text13 CODE >8:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strlen.c
-3162 text13 CODE >9:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strlen.c
-3166 text13 CODE >8:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strlen.c
-3182 text13 CODE >11:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strlen.c
-318E text13 CODE >12:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strlen.c
-2C82 text12 CODE >72:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2C82 text12 CODE >77:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2C92 text12 CODE >78:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2CA6 text12 CODE >82:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2CC8 text12 CODE >83:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2CD0 text12 CODE >84:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2CD4 text12 CODE >85:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2CE8 text12 CODE >86:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2CEC text12 CODE >84:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2D0A text12 CODE >90:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2D1A text12 CODE >91:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2D2E text12 CODE >94:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2D46 text12 CODE >95:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-19DE text11 CODE >287:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-19DE text11 CODE >293:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-19FE text11 CODE >294:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1A14 text11 CODE >295:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1A26 text11 CODE >296:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1A46 text11 CODE >300:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1A56 text11 CODE >301:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1A58 text11 CODE >303:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1A86 text11 CODE >304:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1A8E text11 CODE >305:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1AAE text11 CODE >306:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1AB4 text11 CODE >310:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1ABC text11 CODE >311:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1AC0 text11 CODE >312:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1AC4 text11 CODE >313:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1ACA text11 CODE >314:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1B4C text11 CODE >315:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1B52 text11 CODE >316:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1B58 text11 CODE >317:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1BBC text11 CODE >312:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1C38 text11 CODE >321:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1C5A text11 CODE >322:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1C60 text11 CODE >323:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1C98 text11 CODE >327:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1CC0 text11 CODE >328:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-29DA text10 CODE >3:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strncmp.c
-29DA text10 CODE >5:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strncmp.c
-29EA text10 CODE >6:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strncmp.c
-2A10 text10 CODE >7:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strncmp.c
-2AA4 text10 CODE >8:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strncmp.c
-2AD2 text10 CODE >9:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strncmp.c
-311A text9 CODE >5:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/isalpha.c
-311A text9 CODE >7:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/isalpha.c
-3154 text9 CODE >8:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/isalpha.c
-31C8 text8 CODE >5:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/isupper.c
-31C8 text8 CODE >7:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/isupper.c
-31FE text8 CODE >8:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/isupper.c
-3190 text7 CODE >5:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/islower.c
-3190 text7 CODE >7:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/islower.c
-31C6 text7 CODE >8:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/islower.c
-3038 text6 CODE >4:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/toupper.c
-3038 text6 CODE >6:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/toupper.c
-308C text6 CODE >7:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/toupper.c
-3094 text6 CODE >8:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/toupper.c
-1CC2 text5 CODE >645:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1CC2 text5 CODE >651:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1CD2 text5 CODE >652:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1CD4 text5 CODE >654:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1D02 text5 CODE >655:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1D0A text5 CODE >656:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1D18 text5 CODE >657:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1D20 text5 CODE >661:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1D40 text5 CODE >662:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1D48 text5 CODE >663:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1D4C text5 CODE >664:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1D50 text5 CODE >665:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1D56 text5 CODE >666:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1D5E text5 CODE >667:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1D96 text5 CODE >668:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1E28 text5 CODE >669:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1E3C text5 CODE >671:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1E4E text5 CODE >672:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1E54 text5 CODE >673:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1E5A text5 CODE >674:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1EB8 text5 CODE >664:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1F36 text5 CODE >678:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1F46 text5 CODE >679:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1F4C text5 CODE >680:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1F5E text5 CODE >681:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1F64 text5 CODE >682:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1F74 text5 CODE >686:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1F9C text5 CODE >687:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-10BE text4 CODE >692:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-10BE text4 CODE >702:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-10EA text4 CODE >703:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-10FC text4 CODE >705:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-110E text4 CODE >706:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1112 text4 CODE >847:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-116A text4 CODE >849:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-117C text4 CODE >850:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-11C6 text4 CODE >852:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-11FE text4 CODE >857:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-127A text4 CODE >860:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-128E text4 CODE >861:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1314 text4 CODE >863:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-134C text4 CODE >1296:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-13A4 text4 CODE >1298:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-13C4 text4 CODE >1299:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-13D6 text4 CODE >1300:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1424 text4 CODE >1302:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1460 text4 CODE >1307:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-14DC text4 CODE >1310:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1510 text4 CODE >1311:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1524 text4 CODE >1312:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1582 text4 CODE >1314:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-15BE text4 CODE >1372:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-15EA text4 CODE >1373:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-15FC text4 CODE >1374:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1610 text4 CODE >1375:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-161C text4 CODE >1379:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-162E text4 CODE >1380:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-163A text4 CODE >1384:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-1666 text4 CODE >1385:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-167C text4 CODE >1387:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2F6E text3 CODE >1390:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2F6E text3 CODE >1395:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2F76 text3 CODE >1396:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2F80 text3 CODE >1397:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2F84 text3 CODE >1398:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2FAA text3 CODE >1397:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2FCA text3 CODE >1400:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-2FD2 text3 CODE >1404:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
-3200 text2 CODE >5:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/printf.c
-3200 text2 CODE >9:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/printf.c
-320A text2 CODE >10:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/printf.c
-3226 text2 CODE >13:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/printf.c
-2BB2 text1 CODE >82:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2BB2 text1 CODE >83:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2BB6 text1 CODE >85:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2BC2 text1 CODE >86:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2BC6 text1 CODE >88:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2BD2 text1 CODE >89:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2BD6 text1 CODE >91:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2BE2 text1 CODE >92:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2BE6 text1 CODE >94:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2BF2 text1 CODE >95:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2BF6 text1 CODE >97:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2C02 text1 CODE >98:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2C06 text1 CODE >100:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2C12 text1 CODE >101:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2C16 text1 CODE >102:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2C80 text1 CODE >103:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2256 text0 CODE >24:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2256 text0 CODE >28:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-225A text0 CODE >42:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2260 text0 CODE >43:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2270 text0 CODE >44:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2274 text0 CODE >45:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2278 text0 CODE >47:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-227C text0 CODE >51:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2298 text0 CODE >52:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-22A6 text0 CODE >53:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-22B2 text0 CODE >54:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-22C0 text0 CODE >55:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-22DE text0 CODE >56:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-22E8 text0 CODE >57:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-231E text0 CODE >58:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2334 text0 CODE >59:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2340 text0 CODE >60:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2344 text0 CODE >61:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2352 text0 CODE >65:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2376 text0 CODE >66:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-2392 text0 CODE >67:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-23B4 text0 CODE >68:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-23D6 text0 CODE >70:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-23EA text0 CODE >71:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-23EE text0 CODE >72:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-23F2 text0 CODE >73:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-23F6 text0 CODE >76:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-23FA text0 CODE >77:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
-3228 cinit CODE >12909:/tmp/xcZ1qOGyS.s
-3228 cinit CODE >12911:/tmp/xcZ1qOGyS.s
-3228 cinit CODE >12914:/tmp/xcZ1qOGyS.s
-3228 cinit CODE >12940:/tmp/xcZ1qOGyS.s
-322C cinit CODE >12941:/tmp/xcZ1qOGyS.s
-322E cinit CODE >12942:/tmp/xcZ1qOGyS.s
-322E cinit CODE >12943:/tmp/xcZ1qOGyS.s
-3230 cinit CODE >12944:/tmp/xcZ1qOGyS.s
-3232 cinit CODE >12945:/tmp/xcZ1qOGyS.s
-3234 cinit CODE >12948:/tmp/xcZ1qOGyS.s
-3236 cinit CODE >12956:/tmp/xcZ1qOGyS.s
-3238 cinit CODE >12957:/tmp/xcZ1qOGyS.s
-323A cinit CODE >12958:/tmp/xcZ1qOGyS.s
-323C cinit CODE >12959:/tmp/xcZ1qOGyS.s
-323E cinit CODE >12960:/tmp/xcZ1qOGyS.s
-3240 cinit CODE >12961:/tmp/xcZ1qOGyS.s
-3242 cinit CODE >12967:/tmp/xcZ1qOGyS.s
-3242 cinit CODE >12970:/tmp/xcZ1qOGyS.s
-3244 cinit CODE >12971:/tmp/xcZ1qOGyS.s
-3246 cinit CODE >12972:/tmp/xcZ1qOGyS.s
-3248 cinit CODE >12973:/tmp/xcZ1qOGyS.s
+6200 text37 CODE >63:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6284 text36 CODE >444:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6284 text36 CODE >446:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+62A0 text36 CODE >447:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+62A4 text36 CODE >448:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+62A6 text35 CODE >58:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/interrupt_manager.c
+62A6 text35 CODE >61:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/interrupt_manager.c
+62C4 text35 CODE >63:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/interrupt_manager.c
+62C8 text35 CODE >69:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/interrupt_manager.c
+6AFA text34 CODE >368:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6AFC text34 CODE >370:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6AFC text34 CODE >371:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6B0C text34 CODE >375:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6B12 text34 CODE >376:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6B1A text34 CODE >377:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6B44 text34 CODE >378:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6B5C text34 CODE >379:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6B8E text34 CODE >380:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6BA6 text34 CODE >381:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6BC4 text34 CODE >382:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6BDC text34 CODE >383:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6BFA text34 CODE >384:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6C12 text34 CODE >385:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6C22 text34 CODE >386:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6C32 text34 CODE >387:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6634 text33 CODE >389:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6636 text33 CODE >391:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6636 text33 CODE >396:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6660 text33 CODE >397:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+668A text33 CODE >398:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+669A text33 CODE >399:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+66AA text33 CODE >400:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+70C2 text32 CODE >243:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+70C2 text32 CODE >245:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+70C6 text32 CODE >248:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+70D4 text32 CODE >250:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+70E2 text32 CODE >253:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+70F2 text32 CODE >254:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+712E text32 CODE >255:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+7132 text32 CODE >259:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+7142 text32 CODE >260:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+7172 text32 CODE >263:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+7184 text32 CODE >264:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+7196 text32 CODE >265:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+71A8 text32 CODE >266:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+71BA text32 CODE >267:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+71CC text32 CODE >268:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+71DE text32 CODE >269:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+71F0 text32 CODE >270:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+7202 text32 CODE >271:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+7214 text32 CODE >272:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+7216 text32 CODE >273:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+721A text32 CODE >274:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+721E text32 CODE >275:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+722E text32 CODE >277:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+723C text32 CODE >280:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+724C text32 CODE >281:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+7288 text32 CODE >282:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+728C text32 CODE >286:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+729C text32 CODE >287:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+72CC text32 CODE >290:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+72DE text32 CODE >291:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+72F0 text32 CODE >292:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+7302 text32 CODE >293:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+7314 text32 CODE >294:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+7326 text32 CODE >295:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+7338 text32 CODE >296:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+734A text32 CODE >297:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+735C text32 CODE >298:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+736E text32 CODE >299:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+7376 text32 CODE >302:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+7378 text32 CODE >303:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6206 text31 CODE >439:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6206 text31 CODE >441:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+620E text31 CODE >442:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6808 text30 CODE >65:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6808 text30 CODE >67:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+680C text30 CODE >68:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6820 text30 CODE >73:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6824 text30 CODE >78:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+682A text30 CODE >91:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+682E text30 CODE >92:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6832 text30 CODE >93:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6836 text30 CODE >94:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+683A text30 CODE >95:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+683E text30 CODE >96:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6842 text30 CODE >97:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6846 text30 CODE >98:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+684A text30 CODE >103:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+684E text30 CODE >104:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6852 text30 CODE >105:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6856 text30 CODE >106:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+685A text30 CODE >107:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+685E text30 CODE >108:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6862 text30 CODE >109:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6866 text30 CODE >110:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+686A text30 CODE >111:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+686E text30 CODE >112:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6872 text30 CODE >113:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6876 text30 CODE >114:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+687A text30 CODE >115:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+687E text30 CODE >116:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6882 text30 CODE >117:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6886 text30 CODE >118:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+688A text30 CODE >119:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+688E text30 CODE >120:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6892 text30 CODE >121:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6896 text30 CODE >122:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+689A text30 CODE >123:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+689E text30 CODE >124:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+68A2 text30 CODE >125:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+68A6 text30 CODE >126:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+68AA text30 CODE >141:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+68AE text30 CODE >142:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+68B2 text30 CODE >143:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+68B6 text30 CODE >145:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+68C2 text30 CODE >146:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+68C6 text30 CODE >147:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+68C8 text30 CODE >149:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+68CC text30 CODE >150:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+68E4 text30 CODE >152:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
+6202 text29 CODE >52:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/interrupt_manager.c
+6202 text29 CODE >55:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/interrupt_manager.c
+6204 text29 CODE >56:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/interrupt_manager.c
+6238 text28 CODE >60:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+6238 text28 CODE >63:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+623E text28 CODE >65:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+6242 text28 CODE >67:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+6246 text28 CODE >69:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+624A text28 CODE >71:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+624E text28 CODE >72:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+6502 text27 CODE >55:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6502 text27 CODE >60:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6506 text27 CODE >61:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+650A text27 CODE >62:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+650E text27 CODE >67:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6512 text27 CODE >68:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6516 text27 CODE >69:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+651A text27 CODE >74:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6520 text27 CODE >75:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6524 text27 CODE >76:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6528 text27 CODE >81:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+652C text27 CODE >82:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6530 text27 CODE >83:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6534 text27 CODE >84:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6538 text27 CODE >89:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+653C text27 CODE >90:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6540 text27 CODE >91:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6544 text27 CODE >96:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6546 text27 CODE >97:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6548 text27 CODE >98:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+654A text27 CODE >103:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+654C text27 CODE >104:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+654E text27 CODE >105:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6550 text27 CODE >106:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6554 text27 CODE >115:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6558 text27 CODE >116:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+655C text27 CODE >117:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6560 text27 CODE >118:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+6564 text27 CODE >119:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/pin_manager.c
+62CA text26 CODE >74:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+62CA text26 CODE >77:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+62D0 text26 CODE >79:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+62D4 text26 CODE >81:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+62D8 text26 CODE >83:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+62DC text26 CODE >85:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+62E0 text26 CODE >87:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+62E4 text26 CODE >89:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+62E8 text26 CODE >91:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+62EC text26 CODE >92:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+6210 text25 CODE >208:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+6210 text25 CODE >209:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+6218 text25 CODE >210:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+621A text24 CODE >200:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+621A text24 CODE >201:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+6222 text24 CODE >202:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+6224 text23 CODE >204:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+6224 text23 CODE >205:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+622C text23 CODE >206:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+65CC text22 CODE >66:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+65CC text22 CODE >73:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+65D2 text22 CODE >76:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+65D6 text22 CODE >79:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+65DA text22 CODE >82:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+65DE text22 CODE >85:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+65E2 text22 CODE >88:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+65E6 text22 CODE >91:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+65EA text22 CODE >94:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+65EE text22 CODE >97:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+65F2 text22 CODE >100:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+65F6 text22 CODE >103:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+65FA text22 CODE >106:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+65FE text22 CODE >109:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+6602 text22 CODE >112:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+6606 text22 CODE >115:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+660A text22 CODE >118:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+6616 text22 CODE >119:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+6622 text22 CODE >120:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+662E text22 CODE >122:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+6632 text22 CODE >124:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+6250 text21 CODE >50:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+6250 text21 CODE >52:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+6254 text21 CODE >53:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+6258 text21 CODE >54:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+625C text21 CODE >55:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+6260 text21 CODE >56:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+6264 text21 CODE >57:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+6268 text21 CODE >58:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
+6D98 text20 CODE >9:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6D98 text20 CODE >15:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6D9C text20 CODE >16:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6DAA text20 CODE >17:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6DCA text20 CODE >18:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6DCE text20 CODE >20:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6DDC text20 CODE >21:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6DFC text20 CODE >22:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6E00 text20 CODE >24:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6E0C text20 CODE >25:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6E2A text20 CODE >26:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6E2E text20 CODE >27:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6E32 text20 CODE >28:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6E44 text20 CODE >29:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6E46 text20 CODE >27:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6E54 text20 CODE >32:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6E66 text20 CODE >33:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6E94 text20 CODE >34:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6EB4 text20 CODE >35:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6EB6 text20 CODE >37:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6EC8 text20 CODE >38:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6ECE text20 CODE >40:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6EDE text20 CODE >41:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6EFE text20 CODE >42:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6F1E text20 CODE >43:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aodiv.c
+6C34 text19 CODE >9:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6C34 text19 CODE >14:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6C38 text19 CODE >15:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6C46 text19 CODE >16:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6C66 text19 CODE >17:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6C6A text19 CODE >19:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6C78 text19 CODE >20:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6C98 text19 CODE >21:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6CB6 text19 CODE >22:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6CBA text19 CODE >23:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6CBE text19 CODE >24:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6CD0 text19 CODE >25:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6CD2 text19 CODE >23:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6CE0 text19 CODE >28:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6D0E text19 CODE >29:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6D2E text19 CODE >30:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6D40 text19 CODE >31:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6D46 text19 CODE >33:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6D56 text19 CODE >34:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6D76 text19 CODE >35:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6D96 text19 CODE >36:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
+6420 text18 CODE >1:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/abs.c
+6420 text18 CODE >3:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/abs.c
+645E text18 CODE >4:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/abs.c
+626A text17 CODE >170:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+626C text17 CODE >172:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+626C text17 CODE >174:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+627C text17 CODE >176:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+6282 text17 CODE >177:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+622E text16 CODE >184:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+6230 text16 CODE >186:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+6236 text16 CODE >187:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
+66AC text15 CODE >8:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputc.c
+66AC text15 CODE >12:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputc.c
+66D0 text15 CODE >13:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputc.c
+66D6 text15 CODE >14:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputc.c
+66DA text15 CODE >15:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputc.c
+672E text15 CODE >20:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputc.c
+6740 text15 CODE >24:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputc.c
+6460 text14 CODE >8:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputs.c
+6460 text14 CODE >13:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputs.c
+6468 text14 CODE >14:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputs.c
+646C text14 CODE >15:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputs.c
+647E text14 CODE >16:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputs.c
+6482 text14 CODE >14:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputs.c
+64A2 text14 CODE >19:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputs.c
+63AA text13 CODE >5:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strlen.c
+63AA text13 CODE >7:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strlen.c
+63B2 text13 CODE >8:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strlen.c
+63B6 text13 CODE >9:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strlen.c
+63BA text13 CODE >8:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strlen.c
+63D6 text13 CODE >11:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strlen.c
+63E2 text13 CODE >12:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strlen.c
+6742 text12 CODE >72:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+6742 text12 CODE >77:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+6752 text12 CODE >78:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+6766 text12 CODE >82:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+6788 text12 CODE >83:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+6790 text12 CODE >84:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+6794 text12 CODE >85:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+67A8 text12 CODE >86:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+67AC text12 CODE >84:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+67CA text12 CODE >90:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+67DA text12 CODE >91:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+67EE text12 CODE >94:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+6806 text12 CODE >95:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7656 text11 CODE >287:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7656 text11 CODE >293:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7676 text11 CODE >294:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+768C text11 CODE >295:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+769E text11 CODE >296:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+76BE text11 CODE >300:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+76CE text11 CODE >301:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+76D0 text11 CODE >303:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+76FE text11 CODE >304:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7706 text11 CODE >305:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7726 text11 CODE >306:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+772C text11 CODE >310:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7734 text11 CODE >311:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7738 text11 CODE >312:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+773C text11 CODE >313:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7742 text11 CODE >314:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+77C4 text11 CODE >315:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+77CA text11 CODE >316:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+77D0 text11 CODE >317:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7834 text11 CODE >312:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+78B0 text11 CODE >321:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+78D2 text11 CODE >322:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+78D8 text11 CODE >323:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7910 text11 CODE >327:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7938 text11 CODE >328:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+68E6 text10 CODE >3:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strncmp.c
+68E6 text10 CODE >5:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strncmp.c
+68F6 text10 CODE >6:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strncmp.c
+691C text10 CODE >7:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strncmp.c
+69B0 text10 CODE >8:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strncmp.c
+69DE text10 CODE >9:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/strncmp.c
+63E4 text9 CODE >5:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/isalpha.c
+63E4 text9 CODE >7:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/isalpha.c
+641E text9 CODE >8:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/isalpha.c
+633A text8 CODE >5:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/isupper.c
+633A text8 CODE >7:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/isupper.c
+6370 text8 CODE >8:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/isupper.c
+6372 text7 CODE >5:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/islower.c
+6372 text7 CODE >7:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/islower.c
+63A8 text7 CODE >8:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/islower.c
+64A4 text6 CODE >4:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/toupper.c
+64A4 text6 CODE >6:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/toupper.c
+64F8 text6 CODE >7:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/toupper.c
+6500 text6 CODE >8:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/toupper.c
+737A text5 CODE >645:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+737A text5 CODE >651:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+738A text5 CODE >652:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+738C text5 CODE >654:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+73BA text5 CODE >655:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+73C2 text5 CODE >656:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+73D0 text5 CODE >657:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+73D8 text5 CODE >661:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+73F8 text5 CODE >662:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7400 text5 CODE >663:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7404 text5 CODE >664:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7408 text5 CODE >665:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+740E text5 CODE >666:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7416 text5 CODE >667:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+744E text5 CODE >668:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+74E0 text5 CODE >669:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+74F4 text5 CODE >671:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7506 text5 CODE >672:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+750C text5 CODE >673:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7512 text5 CODE >674:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7570 text5 CODE >664:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+75EE text5 CODE >678:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+75FE text5 CODE >679:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7604 text5 CODE >680:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7616 text5 CODE >681:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+761C text5 CODE >682:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+762C text5 CODE >686:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7654 text5 CODE >687:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+793A text4 CODE >692:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+793A text4 CODE >702:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7966 text4 CODE >703:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7978 text4 CODE >705:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+798A text4 CODE >706:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+798E text4 CODE >847:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+79E6 text4 CODE >849:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+79F8 text4 CODE >850:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7A42 text4 CODE >852:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7A7A text4 CODE >857:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7AF6 text4 CODE >860:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7B0A text4 CODE >861:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7B90 text4 CODE >863:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7BC8 text4 CODE >1296:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7C20 text4 CODE >1298:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7C40 text4 CODE >1299:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7C52 text4 CODE >1300:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7CA0 text4 CODE >1302:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7CDC text4 CODE >1307:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7D58 text4 CODE >1310:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7D8C text4 CODE >1311:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7DA0 text4 CODE >1312:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7DFE text4 CODE >1314:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7E3A text4 CODE >1372:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7E66 text4 CODE >1373:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7E78 text4 CODE >1374:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7E8C text4 CODE >1375:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7E98 text4 CODE >1379:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7EAA text4 CODE >1380:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7EB6 text4 CODE >1384:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7EE2 text4 CODE >1385:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+7EF8 text4 CODE >1387:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+6566 text3 CODE >1390:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+6566 text3 CODE >1395:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+656E text3 CODE >1396:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+6578 text3 CODE >1397:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+657C text3 CODE >1398:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+65A2 text3 CODE >1397:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+65C2 text3 CODE >1400:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+65CA text3 CODE >1404:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
+6312 text2 CODE >5:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/printf.c
+6312 text2 CODE >9:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/printf.c
+631C text2 CODE >10:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/printf.c
+6338 text2 CODE >13:/Applications/microchip/xc8/v2.31/pic/sources/c99/common/printf.c
+6F20 text1 CODE >79:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6F20 text1 CODE >80:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6F24 text1 CODE >82:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6F30 text1 CODE >83:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6F34 text1 CODE >85:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6F40 text1 CODE >86:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6F44 text1 CODE >88:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6F50 text1 CODE >89:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6F54 text1 CODE >91:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6F60 text1 CODE >92:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6F64 text1 CODE >94:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6F70 text1 CODE >95:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6F74 text1 CODE >97:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6F80 text1 CODE >98:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6F84 text1 CODE >100:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6F90 text1 CODE >101:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6F94 text1 CODE >103:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6FA0 text1 CODE >104:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6FA4 text1 CODE >106:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6FB0 text1 CODE >107:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6FB4 text1 CODE >109:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6FC0 text1 CODE >110:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6FC4 text1 CODE >112:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6FD0 text1 CODE >113:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6FD4 text1 CODE >115:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6FE0 text1 CODE >116:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6FE4 text1 CODE >118:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6FF0 text1 CODE >119:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6FF4 text1 CODE >120:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+70C0 text1 CODE >121:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+69E0 text0 CODE >31:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+69E0 text0 CODE >35:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+69E4 text0 CODE >49:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+69EA text0 CODE >50:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+69FA text0 CODE >51:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+69FE text0 CODE >52:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6A02 text0 CODE >62:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6A1E text0 CODE >63:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6A2C text0 CODE >64:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6A38 text0 CODE >65:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6A46 text0 CODE >66:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6A64 text0 CODE >67:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6A6E text0 CODE >68:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6AA4 text0 CODE >69:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6ABA text0 CODE >70:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6AC6 text0 CODE >71:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6ACA text0 CODE >72:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+6AD8 text0 CODE >74:/Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+62EE cinit CODE >12985:/tmp/xcb6Rw4nD.s
+62EE cinit CODE >12987:/tmp/xcb6Rw4nD.s
+62EE cinit CODE >12990:/tmp/xcb6Rw4nD.s
+62EE cinit CODE >13016:/tmp/xcb6Rw4nD.s
+62F2 cinit CODE >13017:/tmp/xcb6Rw4nD.s
+62F4 cinit CODE >13018:/tmp/xcb6Rw4nD.s
+62F4 cinit CODE >13019:/tmp/xcb6Rw4nD.s
+62F6 cinit CODE >13020:/tmp/xcb6Rw4nD.s
+62F8 cinit CODE >13021:/tmp/xcb6Rw4nD.s
+62FA cinit CODE >13024:/tmp/xcb6Rw4nD.s
+62FC cinit CODE >13032:/tmp/xcb6Rw4nD.s
+62FE cinit CODE >13033:/tmp/xcb6Rw4nD.s
+6300 cinit CODE >13034:/tmp/xcb6Rw4nD.s
+6302 cinit CODE >13035:/tmp/xcb6Rw4nD.s
+6304 cinit CODE >13036:/tmp/xcb6Rw4nD.s
+6306 cinit CODE >13037:/tmp/xcb6Rw4nD.s
+6308 cinit CODE >13043:/tmp/xcb6Rw4nD.s
+6308 cinit CODE >13046:/tmp/xcb6Rw4nD.s
+630A cinit CODE >13047:/tmp/xcb6Rw4nD.s
+630C cinit CODE >13048:/tmp/xcb6Rw4nD.s
+630E cinit CODE >13049:/tmp/xcb6Rw4nD.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -706,10 +606,10 @@ $dist/default/production/PIC18_CanRxTest.X.production.o
 # was defined in a psect then <psect> will be "-". File-name
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
-__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production/PIC18_CanRxTest.X.production.o
+__Lmediumconst 7EFA 0 MEDIUMCONST 0 mediumconst dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_print_can_name 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __Hspace_0 8000 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-__Hspace_1 D4 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
+__Hspace_1 D1 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __Hspace_2 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __Hspace_4 60000A 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_UART1_SetFramingErrorHandler 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
@@ -725,20 +625,20 @@ _RXM1EIDL 37BF 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXM1SIDH 37BC 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXM1SIDL 37BD 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production/PIC18_CanRxTest.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst /tmp/xcKeXzM0M.o
+__mediumconst 7EFA 0 MEDIUMCONST 0 mediumconst /tmp/xcDGZPeAJ.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_UART1_SetFramingErrorHandler 3320 0 CODE 0 text25 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_UART1_SetFramingErrorHandler 6224 0 CODE 0 text24 dist/default/production/PIC18_CanRxTest.X.production.o
 isalpha@c 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_UART1_SetOverrunErrorHandler 3316 0 CODE 0 text24 dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_INTERRUPT_Initialize 3338 0 CODE 0 text30 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_UART1_SetOverrunErrorHandler 622E 0 CODE 0 text23 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_INTERRUPT_Initialize 6206 0 CODE 0 text29 dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_convertReg2StandardCANid 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-_PMD_Initialize 324C 0 CODE 0 text27 dist/default/production/PIC18_CanRxTest.X.production.o
+_PMD_Initialize 62CA 0 CODE 0 text26 dist/default/production/PIC18_CanRxTest.X.production.o
 UART1_SetOverrunErrorHandler@interruptHandler 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 ?_abs 13 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 ?_pad 13 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-main@i 87 0 BANK0 1 cstackBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
+main@i 84 0 BANK0 1 cstackBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
 ?_vfprintf 59 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-__Lsmallconst 1000 0 SMALLCONST 0 smallconst dist/default/production/PIC18_CanRxTest.X.production.o
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production/PIC18_CanRxTest.X.production.o
 _LATA 3FBA 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _LATB 3FBB 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _LATC 3FBC 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
@@ -754,46 +654,43 @@ _WPUA 3A41 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _WPUB 3A51 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _WPUC 3A61 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _WPUE 3A81 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-___sp 0 0 STACK 2 stack /tmp/xcKeXzM0M.o
-_dbuf AE 0 BANK0 1 bssBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
-_dtoa 19DE 0 CODE 0 text11 dist/default/production/PIC18_CanRxTest.X.production.o
-_main 2256 0 CODE 0 text0 dist/default/production/PIC18_CanRxTest.X.production.o
-_nout A4 0 BANK0 1 bssBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
-_prec A8 0 BANK0 1 bssBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
-_xtoa 1CC2 0 CODE 0 text5 dist/default/production/PIC18_CanRxTest.X.production.o
+___sp 0 0 STACK 2 stack /tmp/xcDGZPeAJ.o
+_dbuf AB 0 BANK0 1 bssBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
+_dtoa 7656 0 CODE 0 text11 dist/default/production/PIC18_CanRxTest.X.production.o
+_main 69E0 0 CODE 0 text0 dist/default/production/PIC18_CanRxTest.X.production.o
+_nout A1 0 BANK0 1 bssBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
+_prec A5 0 BANK0 1 bssBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
+_xtoa 737A 0 CODE 0 text5 dist/default/production/PIC18_CanRxTest.X.production.o
 abs@a 13 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 pad@i 1A 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 pad@p 17 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 pad@w 1C 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-start 7FFC 0 CODE 0 init /tmp/xcKeXzM0M.o
+start 7FFC 0 CODE 0 init /tmp/xcDGZPeAJ.o
 ___aomod@counter 11 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of___aodiv 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of___aomod 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-__size_of___awmod 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_dtoa 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_main 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_xtoa 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 CAN_receive@tempCanMsg 14 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 pad@fp 13 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-_toupper 3038 0 CODE 0 text6 dist/default/production/PIC18_CanRxTest.X.production.o
+_toupper 64A4 0 CODE 0 text6 dist/default/production/PIC18_CanRxTest.X.production.o
 isupper@c 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-_WakeUpDefaultInterruptHandler 3338 0 CODE 0 text40 dist/default/production/PIC18_CanRxTest.X.production.o
-_ECAN_WAKI_ISR 3294 0 CODE 0 text39 dist/default/production/PIC18_CanRxTest.X.production.o
+_WakeUpDefaultInterruptHandler 6200 0 CODE 0 text37 dist/default/production/PIC18_CanRxTest.X.production.o
+_ECAN_WAKI_ISR 6284 0 CODE 0 text36 dist/default/production/PIC18_CanRxTest.X.production.o
 ECAN_SetWakeUpInterruptHandler@handler 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 __Hpowerup 0 0 CODE 0 powerup dist/default/production/PIC18_CanRxTest.X.production.o
-_UART1_ErrorHandler CE 0 BANK0 1 nvBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_vfpfcnvrt 167E 0 CODE 0 text4 dist/default/production/PIC18_CanRxTest.X.production.o
-___awmod@sign 6 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
+_UART1_ErrorHandler CB 0 BANK0 1 nvBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_vfpfcnvrt 7EFA 0 CODE 0 text4 dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_vfpfcnvrt 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-__accesstop 60 0 ABS 0 - /tmp/xcKeXzM0M.o
-intlevel0 0 0 CODE 0 text /tmp/xcKeXzM0M.o
-intlevel1 0 0 CODE 0 text /tmp/xcKeXzM0M.o
-intlevel2 0 0 CODE 0 text /tmp/xcKeXzM0M.o
-intlevel3 0 0 CODE 0 text /tmp/xcKeXzM0M.o
+__accesstop 60 0 ABS 0 - /tmp/xcDGZPeAJ.o
+intlevel0 0 0 CODE 0 text /tmp/xcDGZPeAJ.o
+intlevel1 0 0 CODE 0 text /tmp/xcDGZPeAJ.o
+intlevel2 0 0 CODE 0 text /tmp/xcDGZPeAJ.o
+intlevel3 0 0 CODE 0 text /tmp/xcDGZPeAJ.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_convertCANid2Reg 25B4 0 CODE 0 text34 dist/default/production/PIC18_CanRxTest.X.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production/PIC18_CanRxTest.X.production.o
 xtoa@c 43 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 xtoa@d 20 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
@@ -803,11 +700,9 @@ xtoa@p 35 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.prod
 xtoa@w 37 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 xtoa@x 28 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_PMD_Initialize 3270 0 CODE 0 text27 dist/default/production/PIC18_CanRxTest.X.production.o
-convertCANid2Reg@wipSIDL 12 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-__size_of_convertCANid2Reg 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_PMD_Initialize 62EE 0 CODE 0 text26 dist/default/production/PIC18_CanRxTest.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production/PIC18_CanRxTest.X.production.o
-_vfpfcnvrt 10BE 0 CODE 0 text4 dist/default/production/PIC18_CanRxTest.X.production.o
+_vfpfcnvrt 793A 0 CODE 0 text4 dist/default/production/PIC18_CanRxTest.X.production.o
 _COMSTATbits 3F90 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 dtoa@fp 1E 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 _U1ERRIE 3DFA 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
@@ -815,34 +710,31 @@ _U1ERRIR 3DF9 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 ivt0x8_base 8 0 CODE 0 ivt0x8 dist/default/production/PIC18_CanRxTest.X.production.o
 _U1RXPPS 3AE7 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 xtoa@fp 1E 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_ECAN_SetWakeUpInterruptHandler 3334 0 CODE 0 text32 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_ECAN_SetWakeUpInterruptHandler 6210 0 CODE 0 text31 dist/default/production/PIC18_CanRxTest.X.production.o
 _ANSELA 3A40 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _ANSELB 3A50 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _ANSELC 3A60 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-convertCANid2Reg@tempPassedInID 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_ECAN_Initialize 2BB2 0 CODE 0 text31 dist/default/production/PIC18_CanRxTest.X.production.o
-___inthi_sp 0 0 STACK 2 stack /tmp/xcKeXzM0M.o
-___intlo_sp 0 0 STACK 2 stack /tmp/xcKeXzM0M.o
+__end_of_ECAN_Initialize 68E6 0 CODE 0 text30 dist/default/production/PIC18_CanRxTest.X.production.o
+___inthi_sp 0 0 STACK 2 stack /tmp/xcDGZPeAJ.o
+___intlo_sp 0 0 STACK 2 stack /tmp/xcDGZPeAJ.o
 _CANCON 3F8F 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 ?_toupper 7 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_INTERRUPT_InterruptManager 3294 0 CODE 0 text38 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_INTERRUPT_InterruptManager 62CA 0 CODE 0 text35 dist/default/production/PIC18_CanRxTest.X.production.o
 _CIOCON 3700 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_convertReg2StandardCANid 2F06 0 CODE 0 text36 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_convertReg2StandardCANid 66AC 0 CODE 0 text33 dist/default/production/PIC18_CanRxTest.X.production.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production/PIC18_CanRxTest.X.production.o
-main@msg 88 0 BANK0 1 cstackBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_CAN_receive 2256 0 CODE 0 text35 dist/default/production/PIC18_CanRxTest.X.production.o
+main@msg 93 0 BANK0 1 cstackBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_CAN_receive 737A 0 CODE 0 text32 dist/default/production/PIC18_CanRxTest.X.production.o
 _TXB0DLC 37E5 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _TXB1DLC 37D5 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _TXB2DLC 37C5 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production/PIC18_CanRxTest.X.production.o
+__Hmediumconst 7FFC 0 MEDIUMCONST 0 mediumconst dist/default/production/PIC18_CanRxTest.X.production.o
 ?_printf 73 0 BANK0 1 cstackBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
 __LnvBANK0 0 0 ABS 0 nvBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of___aodiv 273C 0 CODE 0 text20 dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of___aomod 28A0 0 CODE 0 text19 dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of___awmod 2DF8 0 CODE 0 text21 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of___aodiv 6F20 0 CODE 0 text20 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of___aomod 6D98 0 CODE 0 text19 dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_isalpha 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_islower 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-_CAN_transmit 167E 0 CODE 0 text33 dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_isupper 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 ___aodiv@quotient 13 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 _INLVLA 3A44 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
@@ -850,7 +742,7 @@ _INLVLB 3A54 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _INLVLC 3A64 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _INLVLE 3A84 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 ?_strlen 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-_UART1_Write 32B6 0 CODE 0 text17 dist/default/production/PIC18_CanRxTest.X.production.o
+_UART1_Write 626A 0 CODE 0 text17 dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_strncmp 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 ___aomod@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 convertReg2StandardCANid@returnValue 8 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
@@ -862,21 +754,21 @@ __size_of_putch 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production
 __size_of_ECAN_WAKI_ISR 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _INTCON0bits 3FD2 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 UART1_SetFramingErrorHandler@interruptHandler 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-_PIN_MANAGER_Initialize 2FD4 0 CODE 0 text28 dist/default/production/PIC18_CanRxTest.X.production.o
+_PIN_MANAGER_Initialize 6502 0 CODE 0 text27 dist/default/production/PIC18_CanRxTest.X.production.o
 ___aomod@divisor 9 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-start_initialization 3228 0 CODE 0 cinit dist/default/production/PIC18_CanRxTest.X.production.o
-_ECAN_Initialize 2AD4 0 CODE 0 text31 dist/default/production/PIC18_CanRxTest.X.production.o
+start_initialization 62EE 0 CODE 0 cinit dist/default/production/PIC18_CanRxTest.X.production.o
+_ECAN_Initialize 6808 0 CODE 0 text30 dist/default/production/PIC18_CanRxTest.X.production.o
 _ODCONA 3A42 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _ODCONB 3A52 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _ODCONC 3A62 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _OSCFRQ 39DF 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production/PIC18_CanRxTest.X.production.o
-_UART1_Initialize 2F06 0 CODE 0 text23 dist/default/production/PIC18_CanRxTest.X.production.o
+_UART1_Initialize 65CC 0 CODE 0 text22 dist/default/production/PIC18_CanRxTest.X.production.o
 CAN_receive@returnValue 16 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 ___rparam_used 1 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RB4PPS 3A0C 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RC6PPS 3A16 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_SYSTEM_Initialize 32EA 0 CODE 0 text22 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_SYSTEM_Initialize 626A 0 CODE 0 text21 dist/default/production/PIC18_CanRxTest.X.production.o
 _RXB0D0 3F86 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXB0D1 3F87 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXB0D2 3F88 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
@@ -893,7 +785,6 @@ _RXB1D4 37FA 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXB1D5 37FB 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXB1D6 37FC 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXB1D7 37FD 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-__size_of_CAN_transmit 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __pcstackBANK0 60 0 BANK0 1 cstackBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
 _U1CON0bits 3DF2 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _U1BRGH 3DF6 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
@@ -928,11 +819,11 @@ _TXB2D6 37CC 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _TXB2D7 37CD 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_UART1_SetErrorHandler 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 islower@c 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_ECAN_WAKI_ISR 32B6 0 CODE 0 text39 dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_printf 3228 0 CODE 0 text2 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_ECAN_WAKI_ISR 62A6 0 CODE 0 text36 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_printf 633A 0 CODE 0 text2 dist/default/production/PIC18_CanRxTest.X.production.o
 fputc@fp 5 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 fputs@fp E 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-_convertReg2ExtendedCANid 28A0 0 CODE 0 text37 dist/default/production/PIC18_CanRxTest.X.production.o
+_convertReg2ExtendedCANid 6AFA 0 CODE 0 text34 dist/default/production/PIC18_CanRxTest.X.production.o
 toupper@c 7 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 __Hbank0 0 0 ABS 0 bank0 dist/default/production/PIC18_CanRxTest.X.production.o
 __Hbank1 0 0 ABS 0 bank1 dist/default/production/PIC18_CanRxTest.X.production.o
@@ -946,7 +837,7 @@ __Hbank8 0 0 ABS 0 bank8 dist/default/production/PIC18_CanRxTest.X.production.o
 __Hbank9 0 0 ABS 0 bank9 dist/default/production/PIC18_CanRxTest.X.production.o
 __Hcinit 0 0 ABS 0 cinit dist/default/production/PIC18_CanRxTest.X.production.o
 __Hconst 0 0 CONST 0 const dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_strlen 3190 0 CODE 0 text13 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_strlen 63E4 0 CODE 0 text13 dist/default/production/PIC18_CanRxTest.X.production.o
 __Hidata 0 0 CODE 0 idata dist/default/production/PIC18_CanRxTest.X.production.o
 __Hidloc 200010 0 IDLOC 5 idloc dist/default/production/PIC18_CanRxTest.X.production.o
 __Hnvbit 0 0 COMRAM 1 nvbit dist/default/production/PIC18_CanRxTest.X.production.o
@@ -970,15 +861,14 @@ __Hbank12 0 0 ABS 0 bank12 dist/default/production/PIC18_CanRxTest.X.production.
 __Hbank13 0 0 ABS 0 bank13 dist/default/production/PIC18_CanRxTest.X.production.o
 __Hbank14 0 0 ABS 0 bank14 dist/default/production/PIC18_CanRxTest.X.production.o
 __Hbank15 0 0 ABS 0 bank15 dist/default/production/PIC18_CanRxTest.X.production.o
-_ECAN_SetWakeUpInterruptHandler 332A 0 CODE 0 text32 dist/default/production/PIC18_CanRxTest.X.production.o
+_ECAN_SetWakeUpInterruptHandler 6206 0 CODE 0 text31 dist/default/production/PIC18_CanRxTest.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production/PIC18_CanRxTest.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_CAN_transmit 19DE 0 CODE 0 text33 dist/default/production/PIC18_CanRxTest.X.production.o
-__smallconst 1000 0 SMALLCONST 0 smallconst /tmp/xcKeXzM0M.o
+__smallconst 0 0 SMALLCONST 0 smallconst /tmp/xcDGZPeAJ.o
 __Hcomram 0 0 ABS 0 comram dist/default/production/PIC18_CanRxTest.X.production.o
 __Hconfig 30000A 0 CONFIG 4 config dist/default/production/PIC18_CanRxTest.X.production.o
-print_can_name@msg_id 7F 0 BANK0 1 cstackBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_isalpha 3156 0 CODE 0 text9 dist/default/production/PIC18_CanRxTest.X.production.o
+print_can_name@msg_id 7D 0 BANK0 1 cstackBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_isalpha 6420 0 CODE 0 text9 dist/default/production/PIC18_CanRxTest.X.production.o
 __Lbank0 0 0 ABS 0 bank0 dist/default/production/PIC18_CanRxTest.X.production.o
 __Lbank1 0 0 ABS 0 bank1 dist/default/production/PIC18_CanRxTest.X.production.o
 __Lbank2 0 0 ABS 0 bank2 dist/default/production/PIC18_CanRxTest.X.production.o
@@ -993,12 +883,12 @@ __Lcinit 0 0 ABS 0 cinit dist/default/production/PIC18_CanRxTest.X.production.o
 __Lconst 0 0 CONST 0 const dist/default/production/PIC18_CanRxTest.X.production.o
 __Lidata 0 0 CODE 0 idata dist/default/production/PIC18_CanRxTest.X.production.o
 __Lidloc 0 0 IDLOC 5 idloc dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_islower 31C8 0 CODE 0 text7 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_islower 63AA 0 CODE 0 text7 dist/default/production/PIC18_CanRxTest.X.production.o
 __Lnvbit 0 0 COMRAM 1 nvbit dist/default/production/PIC18_CanRxTest.X.production.o
 __Lparam 0 0 COMRAM 1 rparam dist/default/production/PIC18_CanRxTest.X.production.o
 __Lrdata 0 0 COMRAM 1 rdata dist/default/production/PIC18_CanRxTest.X.production.o
 __Lstack 0 0 STACK 2 stack dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_isupper 3200 0 CODE 0 text8 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_isupper 6372 0 CODE 0 text8 dist/default/production/PIC18_CanRxTest.X.production.o
 __Ltext0 0 0 ABS 0 text0 dist/default/production/PIC18_CanRxTest.X.production.o
 __Ltext1 0 0 ABS 0 text1 dist/default/production/PIC18_CanRxTest.X.production.o
 __Ltext2 0 0 ABS 0 text2 dist/default/production/PIC18_CanRxTest.X.production.o
@@ -1012,11 +902,11 @@ __Ltext9 0 0 ABS 0 text9 dist/default/production/PIC18_CanRxTest.X.production.o
 convertReg2StandardCANid@tempRXBn_SIDH 7 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 convertReg2StandardCANid@tempRXBn_SIDL 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 __Hfarbss 0 0 FARRAM 0 farbss dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_WakeUpDefaultInterruptHandler 333A 0 CODE 0 text40 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_WakeUpDefaultInterruptHandler 6202 0 CODE 0 text37 dist/default/production/PIC18_CanRxTest.X.production.o
 convertReg2ExtendedCANid@CAN_standardLo_ID_hi3bits F 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-_print_can_name 2BB2 0 CODE 0 text1 dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_strncmp 2AD4 0 CODE 0 text10 dist/default/production/PIC18_CanRxTest.X.production.o
-_INTERRUPT_Initialize 3334 0 CODE 0 text30 dist/default/production/PIC18_CanRxTest.X.production.o
+_print_can_name 6F20 0 CODE 0 text1 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_strncmp 69E0 0 CODE 0 text10 dist/default/production/PIC18_CanRxTest.X.production.o
+_INTERRUPT_Initialize 6202 0 CODE 0 text29 dist/default/production/PIC18_CanRxTest.X.production.o
 __Habs1 0 0 ABS 0 abs1 dist/default/production/PIC18_CanRxTest.X.production.o
 __Hdata 0 0 ABS 0 data dist/default/production/PIC18_CanRxTest.X.production.o
 __Hinit 8000 0 CODE 0 init dist/default/production/PIC18_CanRxTest.X.production.o
@@ -1031,28 +921,27 @@ __Lrbit 0 0 COMRAM 1 rbit dist/default/production/PIC18_CanRxTest.X.production.o
 __Lrbss 0 0 COMRAM 1 rbss dist/default/production/PIC18_CanRxTest.X.production.o
 __Ltemp 0 0 COMRAM 1 temp dist/default/production/PIC18_CanRxTest.X.production.o
 __Ltext 0 0 ABS 0 text dist/default/production/PIC18_CanRxTest.X.production.o
-__pnvBANK0 CE 0 BANK0 1 nvBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
+__pnvBANK0 CB 0 BANK0 1 nvBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
 ___aodiv@counter 11 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 ___aomod@sign 12 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
-_toupper$1794 D 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
+_toupper$1756 D 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 __HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_INTERRUPT_InterruptManager 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __Hirdata 0 0 CODE 0 irdata dist/default/production/PIC18_CanRxTest.X.production.o
 __S0 8000 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-__S1 D4 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
+__S1 D1 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __S2 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __S4 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __S5 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-_abs 30DA 0 CODE 0 text18 dist/default/production/PIC18_CanRxTest.X.production.o
-_pad 2C82 0 CODE 0 text12 dist/default/production/PIC18_CanRxTest.X.production.o
+_abs 6420 0 CODE 0 text18 dist/default/production/PIC18_CanRxTest.X.production.o
+_pad 6742 0 CODE 0 text12 dist/default/production/PIC18_CanRxTest.X.production.o
 __Hivt0x8 1A 0 CODE 0 ivt0x8 dist/default/production/PIC18_CanRxTest.X.production.o
-CAN_transmit@returnValue 15 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 IVTBASEH 3FD6 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 IVTBASEL 3FD5 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 IVTBASEU 3FD7 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _uart1RxLastError 5F 0 COMRAM 1 bssCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_UART1_Initialize 2F6E 0 CODE 0 text23 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_UART1_Initialize 6634 0 CODE 0 text22 dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_CAN_receive 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_ECAN_Initialize 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 convertReg2ExtendedCANid@returnValue A 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
@@ -1064,23 +953,18 @@ __Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production/PIC18_CanRxTest.X.produc
 __Hnvrram 0 0 COMRAM 1 nvrram dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_toupper 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _ECANCON 3F91 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-_SYSTEM_Initialize 32D0 0 CODE 0 text22 dist/default/production/PIC18_CanRxTest.X.production.o
-_dtoa$1680 30 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_abs 311A 0 CODE 0 text18 dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_pad 2D48 0 CODE 0 text12 dist/default/production/PIC18_CanRxTest.X.production.o
+_SYSTEM_Initialize 6250 0 CODE 0 text21 dist/default/production/PIC18_CanRxTest.X.production.o
+_dtoa$1642 30 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_abs 6460 0 CODE 0 text18 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_pad 6808 0 CODE 0 text12 dist/default/production/PIC18_CanRxTest.X.production.o
 ?_convertReg2ExtendedCANid 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 __HnvBANK0 0 0 ABS 0 nvBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
-CAN_transmit@tempCanMsg 13 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-CAN_transmit@tempEIDH 16 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-CAN_transmit@tempEIDL 17 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-CAN_transmit@tempSIDH 18 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-CAN_transmit@tempSIDL 19 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 __Hramtop 1000 0 RAM 0 ramtop dist/default/production/PIC18_CanRxTest.X.production.o
 strlen@a 3 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 strlen@s 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 __Hrparam 0 0 COMRAM 1 rparam dist/default/production/PIC18_CanRxTest.X.production.o
 __activetblptr 2 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_print_can_name 2C82 0 CODE 0 text1 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_print_can_name 70C2 0 CODE 0 text1 dist/default/production/PIC18_CanRxTest.X.production.o
 __Hstruct 0 0 COMRAM 1 struct dist/default/production/PIC18_CanRxTest.X.production.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
 __Htext10 0 0 ABS 0 text10 dist/default/production/PIC18_CanRxTest.X.production.o
@@ -1112,52 +996,44 @@ __Htext35 0 0 ABS 0 text35 dist/default/production/PIC18_CanRxTest.X.production.
 __Htext36 0 0 ABS 0 text36 dist/default/production/PIC18_CanRxTest.X.production.o
 __Htext37 0 0 ABS 0 text37 dist/default/production/PIC18_CanRxTest.X.production.o
 __Htext38 0 0 ABS 0 text38 dist/default/production/PIC18_CanRxTest.X.production.o
-__Htext39 0 0 ABS 0 text39 dist/default/production/PIC18_CanRxTest.X.production.o
-__Htext40 0 0 ABS 0 text40 dist/default/production/PIC18_CanRxTest.X.production.o
-__Htext41 0 0 ABS 0 text41 dist/default/production/PIC18_CanRxTest.X.production.o
 vfpfcnvrt@fmt 47 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 vfpfcnvrt@llu 68 0 BANK0 1 cstackBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
-_INTERRUPT_InterruptManager 3270 0 CODE 0 text38 dist/default/production/PIC18_CanRxTest.X.production.o
-___awmod@counter 5 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
+_INTERRUPT_InterruptManager 62A6 0 CODE 0 text35 dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_PMD_Initialize 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _PIE5bits 3995 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 pad@buf 15 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext10 29DA 0 CODE 0 text10 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext11 19DE 0 CODE 0 text11 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext12 2C82 0 CODE 0 text12 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext13 3156 0 CODE 0 text13 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext14 3096 0 CODE 0 text14 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext15 2DF8 0 CODE 0 text15 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext16 3302 0 CODE 0 text16 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext17 32B6 0 CODE 0 text17 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext18 30DA 0 CODE 0 text18 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext19 273C 0 CODE 0 text19 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext20 25B4 0 CODE 0 text20 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext21 2D48 0 CODE 0 text21 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext22 32D0 0 CODE 0 text22 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext23 2F06 0 CODE 0 text23 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext24 330C 0 CODE 0 text24 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext25 3316 0 CODE 0 text25 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext26 3320 0 CODE 0 text26 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext27 324C 0 CODE 0 text27 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext28 2FD4 0 CODE 0 text28 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext29 32EA 0 CODE 0 text29 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext30 3334 0 CODE 0 text30 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext31 2AD4 0 CODE 0 text31 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext32 332A 0 CODE 0 text32 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext33 167E 0 CODE 0 text33 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext34 241C 0 CODE 0 text34 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext35 1F9E 0 CODE 0 text35 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext36 2E8E 0 CODE 0 text36 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext37 28A0 0 CODE 0 text37 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext38 3270 0 CODE 0 text38 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext39 3294 0 CODE 0 text39 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext40 3338 0 CODE 0 text40 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext41 0 0 CODE 0 text41 dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_PIN_MANAGER_Initialize 3038 0 CODE 0 text28 dist/default/production/PIC18_CanRxTest.X.production.o
-___aodiv 25B4 0 CODE 0 text20 dist/default/production/PIC18_CanRxTest.X.production.o
-___aomod 273C 0 CODE 0 text19 dist/default/production/PIC18_CanRxTest.X.production.o
-___awmod 2D48 0 CODE 0 text21 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext10 68E6 0 CODE 0 text10 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext11 7656 0 CODE 0 text11 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext12 6742 0 CODE 0 text12 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext13 63AA 0 CODE 0 text13 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext14 6460 0 CODE 0 text14 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext15 66AC 0 CODE 0 text15 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext16 622E 0 CODE 0 text16 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext17 626A 0 CODE 0 text17 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext18 6420 0 CODE 0 text18 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext19 6C34 0 CODE 0 text19 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext20 6D98 0 CODE 0 text20 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext21 6250 0 CODE 0 text21 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext22 65CC 0 CODE 0 text22 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext23 6224 0 CODE 0 text23 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext24 621A 0 CODE 0 text24 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext25 6210 0 CODE 0 text25 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext26 62CA 0 CODE 0 text26 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext27 6502 0 CODE 0 text27 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext28 6238 0 CODE 0 text28 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext29 6202 0 CODE 0 text29 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext30 6808 0 CODE 0 text30 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext31 6206 0 CODE 0 text31 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext32 70C2 0 CODE 0 text32 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext33 6634 0 CODE 0 text33 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext34 6AFA 0 CODE 0 text34 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext35 62A6 0 CODE 0 text35 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext36 6284 0 CODE 0 text36 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext37 6200 0 CODE 0 text37 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext38 0 0 CODE 0 text38 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_PIN_MANAGER_Initialize 6566 0 CODE 0 text27 dist/default/production/PIC18_CanRxTest.X.production.o
+___aodiv 6D98 0 CODE 0 text20 dist/default/production/PIC18_CanRxTest.X.production.o
+___aomod 6C34 0 CODE 0 text19 dist/default/production/PIC18_CanRxTest.X.production.o
 __Lbank10 0 0 ABS 0 bank10 dist/default/production/PIC18_CanRxTest.X.production.o
 __Lbank11 0 0 ABS 0 bank11 dist/default/production/PIC18_CanRxTest.X.production.o
 __Lbank12 0 0 ABS 0 bank12 dist/default/production/PIC18_CanRxTest.X.production.o
@@ -1172,27 +1048,25 @@ UART1_SetErrorHandler@interruptHandler 1 0 COMRAM 1 cstackCOMRAM dist/default/pr
 __Lcomram 0 0 ABS 0 comram dist/default/production/PIC18_CanRxTest.X.production.o
 __Lconfig 0 0 CONFIG 4 config dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_convertReg2ExtendedCANid 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-_printf 3200 0 CODE 0 text2 dist/default/production/PIC18_CanRxTest.X.production.o
+_printf 6312 0 CODE 0 text2 dist/default/production/PIC18_CanRxTest.X.production.o
 _RXB0DLC 3F85 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXB1DLC 37F5 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 strncmp@l 8 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 strncmp@n 5 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 strncmp@r A 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-_xtoa$1691 31 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-_xtoa$1692 33 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-_LATAbits 3FBA 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
+_xtoa$1653 31 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
+_xtoa$1654 33 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production/PIC18_CanRxTest.X.production.o
-main@count 86 0 BANK0 1 cstackBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
-_strlen 3156 0 CODE 0 text13 dist/default/production/PIC18_CanRxTest.X.production.o
+_strlen 63AA 0 CODE 0 text13 dist/default/production/PIC18_CanRxTest.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production/PIC18_CanRxTest.X.production.o
 convertReg2ExtendedCANid@tempRXBn_EIDH 9 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 convertReg2ExtendedCANid@tempRXBn_EIDL 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 convertReg2ExtendedCANid@tempRXBn_SIDH 2 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 convertReg2ExtendedCANid@tempRXBn_SIDL 3 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_vfprintf 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_UART1_Write 32D0 0 CODE 0 text17 dist/default/production/PIC18_CanRxTest.X.production.o
-stackhi FFF 0 ABS 0 - /tmp/xcKeXzM0M.o
-stacklo D4 0 ABS 0 - /tmp/xcKeXzM0M.o
+__end_of_UART1_Write 6284 0 CODE 0 text17 dist/default/production/PIC18_CanRxTest.X.production.o
+stackhi FFF 0 ABS 0 - /tmp/xcDGZPeAJ.o
+stacklo D1 0 ABS 0 - /tmp/xcDGZPeAJ.o
 _OSCCON1 39D9 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _OSCCON3 39DB 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _OSCTUNE 39DE 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
@@ -1209,15 +1083,15 @@ convertReg2ExtendedCANid@CAN_standardLo_ID_lo2bits E 0 COMRAM 1 cstackCOMRAM dis
 _PIR3bits 39A3 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _PIR5bits 39A5 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 ___aodiv@divisor 9 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_toupper 3096 0 CODE 0 text6 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_toupper 6502 0 CODE 0 text6 dist/default/production/PIC18_CanRxTest.X.production.o
 ___aodiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_WakeUpDefaultInterruptHandler 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-_UART1_SetFramingErrorHandler 3316 0 CODE 0 text25 dist/default/production/PIC18_CanRxTest.X.production.o
+_UART1_SetFramingErrorHandler 621A 0 CODE 0 text24 dist/default/production/PIC18_CanRxTest.X.production.o
 _TXB2CONbits 37C0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-printf@ap 7D 0 BANK0 1 cstackBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
-_UART1_SetOverrunErrorHandler 330C 0 CODE 0 text24 dist/default/production/PIC18_CanRxTest.X.production.o
-end_of_initialization 3242 0 CODE 0 cinit dist/default/production/PIC18_CanRxTest.X.production.o
+printf@ap 7B 0 BANK0 1 cstackBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
+_UART1_SetOverrunErrorHandler 6224 0 CODE 0 text23 dist/default/production/PIC18_CanRxTest.X.production.o
+end_of_initialization 6308 0 CODE 0 cinit dist/default/production/PIC18_CanRxTest.X.production.o
 __Lnvrram 0 0 COMRAM 1 nvrram dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_printf 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 fputc@c 3 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
@@ -1226,14 +1100,12 @@ fputs@i 11 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.pro
 fputs@s C 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 ?___aodiv 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 ?___aomod 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-?___awmod 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 vfprintf@fmt 5B 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 __Hreset_vec 4 0 CODE 0 reset_vec dist/default/production/PIC18_CanRxTest.X.production.o
 __HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
 _RXB1CONbits 37F0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-_UART1_FramingErrorHandler D2 0 BANK0 1 nvBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
-_UART1_OverrunErrorHandler D0 0 BANK0 1 nvBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
-___awmod@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
+_UART1_FramingErrorHandler CF 0 BANK0 1 nvBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
+_UART1_OverrunErrorHandler CD 0 BANK0 1 nvBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
 __Lramtop 1000 0 RAM 0 ramtop dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_strlen 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __Lrparam 0 0 COMRAM 1 rparam dist/default/production/PIC18_CanRxTest.X.production.o
@@ -1244,7 +1116,7 @@ _TXB0EIDH 37E3 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _TXB0EIDL 37E4 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _TXB0SIDH 37E1 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _TXB0SIDL 37E2 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-__pcinit 3228 0 CODE 0 cinit dist/default/production/PIC18_CanRxTest.X.production.o
+__pcinit 62EE 0 CODE 0 cinit dist/default/production/PIC18_CanRxTest.X.production.o
 _TXB1EIDH 37D3 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _TXB1EIDL 37D4 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _TXB1SIDH 37D1 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
@@ -1256,17 +1128,16 @@ _TXB2SIDL 37C2 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 vfpfcnvrt@ap 49 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 vfpfcnvrt@fp 45 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 vfpfcnvrt@ll 60 0 BANK0 1 cstackBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext0 2256 0 CODE 0 text0 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext1 2BB2 0 CODE 0 text1 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext2 3200 0 CODE 0 text2 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext3 2F6E 0 CODE 0 text3 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext4 10BE 0 CODE 0 text4 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext5 1CC2 0 CODE 0 text5 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext6 3038 0 CODE 0 text6 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext7 3190 0 CODE 0 text7 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext8 31C8 0 CODE 0 text8 dist/default/production/PIC18_CanRxTest.X.production.o
-__ptext9 311A 0 CODE 0 text9 dist/default/production/PIC18_CanRxTest.X.production.o
-convertCANid2Reg@canIdType 5 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext0 69E0 0 CODE 0 text0 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext1 6F20 0 CODE 0 text1 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext2 6312 0 CODE 0 text2 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext3 6566 0 CODE 0 text3 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext4 793A 0 CODE 0 text4 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext5 737A 0 CODE 0 text5 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext6 64A4 0 CODE 0 text6 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext7 6372 0 CODE 0 text7 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext8 633A 0 CODE 0 text8 dist/default/production/PIC18_CanRxTest.X.production.o
+__ptext9 63E4 0 CODE 0 text9 dist/default/production/PIC18_CanRxTest.X.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production/PIC18_CanRxTest.X.production.o
 vfprintf@ap 5D 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 vfprintf@fp 59 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
@@ -1300,50 +1171,46 @@ __Ltext35 0 0 ABS 0 text35 dist/default/production/PIC18_CanRxTest.X.production.
 __Ltext36 0 0 ABS 0 text36 dist/default/production/PIC18_CanRxTest.X.production.o
 __Ltext37 0 0 ABS 0 text37 dist/default/production/PIC18_CanRxTest.X.production.o
 __Ltext38 0 0 ABS 0 text38 dist/default/production/PIC18_CanRxTest.X.production.o
-__Ltext39 0 0 ABS 0 text39 dist/default/production/PIC18_CanRxTest.X.production.o
-__Ltext40 0 0 ABS 0 text40 dist/default/production/PIC18_CanRxTest.X.production.o
-__Ltext41 0 0 ABS 0 text41 dist/default/production/PIC18_CanRxTest.X.production.o
-__ramtop 1000 0 RAM 0 ramtop /tmp/xcKeXzM0M.o
-_vfprintf 2F6E 0 CODE 0 text3 dist/default/production/PIC18_CanRxTest.X.production.o
+__ramtop 1000 0 RAM 0 ramtop /tmp/xcDGZPeAJ.o
+_vfprintf 6566 0 CODE 0 text3 dist/default/production/PIC18_CanRxTest.X.production.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production/PIC18_CanRxTest.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production/PIC18_CanRxTest.X.production.o
 _TXB1CONbits 37D0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-_isalpha 311A 0 CODE 0 text9 dist/default/production/PIC18_CanRxTest.X.production.o
+_isalpha 63E4 0 CODE 0 text9 dist/default/production/PIC18_CanRxTest.X.production.o
 _UART1_DefaultErrorHandler 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-_convertReg2StandardCANid 2E8E 0 CODE 0 text36 dist/default/production/PIC18_CanRxTest.X.production.o
-_islower 3190 0 CODE 0 text7 dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_convertReg2ExtendedCANid 29DA 0 CODE 0 text37 dist/default/production/PIC18_CanRxTest.X.production.o
-__psmallconst 1000 0 SMALLCONST 0 smallconst dist/default/production/PIC18_CanRxTest.X.production.o
-_isupper 31C8 0 CODE 0 text8 dist/default/production/PIC18_CanRxTest.X.production.o
+_convertReg2StandardCANid 6634 0 CODE 0 text33 dist/default/production/PIC18_CanRxTest.X.production.o
+_islower 6372 0 CODE 0 text7 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_convertReg2ExtendedCANid 6C34 0 CODE 0 text34 dist/default/production/PIC18_CanRxTest.X.production.o
+_isupper 633A 0 CODE 0 text8 dist/default/production/PIC18_CanRxTest.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_vfprintf 2FD4 0 CODE 0 text3 dist/default/production/PIC18_CanRxTest.X.production.o
-_strncmp 29DA 0 CODE 0 text10 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_vfprintf 65CC 0 CODE 0 text3 dist/default/production/PIC18_CanRxTest.X.production.o
+_strncmp 68E6 0 CODE 0 text10 dist/default/production/PIC18_CanRxTest.X.production.o
 _SLRCONA 3A43 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _SLRCONB 3A53 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _SLRCONC 3A63 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-_CAN_receive 1F9E 0 CODE 0 text35 dist/default/production/PIC18_CanRxTest.X.production.o
+_CAN_receive 70C2 0 CODE 0 text32 dist/default/production/PIC18_CanRxTest.X.production.o
 ___param_bank 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXB0CONbits 3F80 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of__initialization 3242 0 CODE 0 cinit dist/default/production/PIC18_CanRxTest.X.production.o
-___awmod@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of__initialization 6308 0 CODE 0 cinit dist/default/production/PIC18_CanRxTest.X.production.o
 __Libigdata 0 0 CODE 0 ibigdata dist/default/production/PIC18_CanRxTest.X.production.o
 _UART1_DefaultFramingErrorHandler 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _UART1_DefaultOverrunErrorHandler 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __Lclrtext 0 0 ABS 0 clrtext dist/default/production/PIC18_CanRxTest.X.production.o
-main@tx_msg 96 0 BANK0 1 cstackBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
+main@tx_msg 85 0 BANK0 1 cstackBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
 _TXB0CONbits 37E0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
+__pmediumconst 7EFA 0 MEDIUMCONST 0 mediumconst dist/default/production/PIC18_CanRxTest.X.production.o
 vfpfcnvrt@c 70 0 BANK0 1 cstackBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
 putch@txData 2 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_dtoa 1CC2 0 CODE 0 text11 dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_main 241C 0 CODE 0 text0 dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_xtoa 1F9E 0 CODE 0 text5 dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_UART1_SetErrorHandler 332A 0 CODE 0 text26 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_dtoa 793A 0 CODE 0 text11 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_main 6AFA 0 CODE 0 text0 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_xtoa 7656 0 CODE 0 text5 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_UART1_SetErrorHandler 621A 0 CODE 0 text25 dist/default/production/PIC18_CanRxTest.X.production.o
 printf@fmt 73 0 BANK0 1 cstackBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
 _CANSTAT 3F8E 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_fputc 2E8E 0 CODE 0 text15 dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_fputs 30DA 0 CODE 0 text14 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_fputc 6742 0 CODE 0 text15 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_fputs 64A4 0 CODE 0 text14 dist/default/production/PIC18_CanRxTest.X.production.o
 _OSCEN 39DD 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _TRISA 3FC2 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _TRISB 3FC3 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
@@ -1357,7 +1224,7 @@ _U1P3L 3DF0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _U1RXB 3DE8 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _U1TXB 3DEA 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _U1UIR 3DF8 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_putch 330C 0 CODE 0 text16 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_putch 6238 0 CODE 0 text16 dist/default/production/PIC18_CanRxTest.X.production.o
 __HRAM 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __Hbss 0 0 RAM 1 bss dist/default/production/PIC18_CanRxTest.X.production.o
 __Hram 0 0 ABS 0 ram dist/default/production/PIC18_CanRxTest.X.production.o
@@ -1368,17 +1235,17 @@ __Lram 0 0 ABS 0 ram dist/default/production/PIC18_CanRxTest.X.production.o
 __Lsfr 0 0 ABS 0 sfr dist/default/production/PIC18_CanRxTest.X.production.o
 _RXB0EIDH 3F83 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXB0EIDL 3F84 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-_flags AA 0 BANK0 1 bssBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
+_flags A7 0 BANK0 1 bssBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
 _RXB0SIDH 3F81 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXB0SIDL 3F82 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-_fputc 2DF8 0 CODE 0 text15 dist/default/production/PIC18_CanRxTest.X.production.o
-_fputs 3096 0 CODE 0 text14 dist/default/production/PIC18_CanRxTest.X.production.o
+_fputc 66AC 0 CODE 0 text15 dist/default/production/PIC18_CanRxTest.X.production.o
+_fputs 6460 0 CODE 0 text14 dist/default/production/PIC18_CanRxTest.X.production.o
 _RXB1EIDH 37F3 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXB1EIDL 37F4 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXB1SIDH 37F1 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXB1SIDL 37F2 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-_putch 3302 0 CODE 0 text16 dist/default/production/PIC18_CanRxTest.X.production.o
-_width A6 0 BANK0 1 bssBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
+_putch 622E 0 CODE 0 text16 dist/default/production/PIC18_CanRxTest.X.production.o
+_width A3 0 BANK0 1 bssBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 ?_isalpha 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 ?_islower 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
@@ -1386,16 +1253,12 @@ __size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/production/PIC18_CanRx
 __size_of_abs 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_pad 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_UART1_Write 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-__end_of_OSCILLATOR_Initialize 3302 0 CODE 0 text29 dist/default/production/PIC18_CanRxTest.X.production.o
+__end_of_OSCILLATOR_Initialize 6250 0 CODE 0 text28 dist/default/production/PIC18_CanRxTest.X.production.o
 ?_convertReg2StandardCANid 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 ?_strncmp 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-__initialization 3228 0 CODE 0 cinit dist/default/production/PIC18_CanRxTest.X.production.o
-convertCANid2Reg@passedInEIDH 6 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-convertCANid2Reg@passedInEIDL 8 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-convertCANid2Reg@passedInSIDH A 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-convertCANid2Reg@passedInSIDL C 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
-__pbssBANK0 A4 0 BANK0 1 bssBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
-_UART1_SetErrorHandler 3320 0 CODE 0 text26 dist/default/production/PIC18_CanRxTest.X.production.o
+__initialization 62EE 0 CODE 0 cinit dist/default/production/PIC18_CanRxTest.X.production.o
+__pbssBANK0 A1 0 BANK0 1 bssBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
+_UART1_SetErrorHandler 6210 0 CODE 0 text25 dist/default/production/PIC18_CanRxTest.X.production.o
 _RXF0EIDH 37A2 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXF0EIDL 37A3 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXF0SIDH 37A0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
@@ -1420,10 +1283,9 @@ _RXF5EIDH 37B6 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXF5EIDL 37B7 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXF5SIDH 37B4 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 _RXF5SIDL 37B5 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-_convertCANid2Reg 241C 0 CODE 0 text34 dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_ECAN_SetWakeUpInterruptHandler 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __Hfardata 0 0 FARRAM 0 fardata dist/default/production/PIC18_CanRxTest.X.production.o
-__Hsmallconst 10BE 0 SMALLCONST 0 smallconst dist/default/production/PIC18_CanRxTest.X.production.o
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production/PIC18_CanRxTest.X.production.o
 dtoa@d 20 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 dtoa@i 40 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 dtoa@n 38 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
@@ -1433,9 +1295,9 @@ dtoa@w 34 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.prod
 __Lifardata 0 0 CODE 0 ifardata dist/default/production/PIC18_CanRxTest.X.production.o
 _U1ERRIRbits 3DF9 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
 __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production/PIC18_CanRxTest.X.production.o
-_WakeUpInterruptHandler AC 0 BANK0 1 bssBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
+_WakeUpInterruptHandler A9 0 BANK0 1 bssBANK0 dist/default/production/PIC18_CanRxTest.X.production.o
 __size_of_INTERRUPT_Initialize 0 0 ABS 0 - dist/default/production/PIC18_CanRxTest.X.production.o
-_OSCILLATOR_Initialize 32EA 0 CODE 0 text29 dist/default/production/PIC18_CanRxTest.X.production.o
+_OSCILLATOR_Initialize 6238 0 CODE 0 text28 dist/default/production/PIC18_CanRxTest.X.production.o
 UART1_Write@txData 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRxTest.X.production.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
@@ -1462,12 +1324,50 @@ UART1_Write@txData 1 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_CanRx
 # All other numeric quantities are in decimal.
 %SEGMENTS
 ivt0x8 0 8 8 12 1
-text4 0 10BE 10BE 227C 1
+cinit 0 62EE 62EE 24 1
+text0 0 69E0 69E0 11A 1
+text1 0 6F20 6F20 1A2 1
+text2 0 6312 6312 28 1
+text3 0 6566 6566 66 1
+text4 0 793A 793A 5C0 1
+text5 0 737A 737A 2DC 1
+text6 0 64A4 64A4 5E 1
+text7 0 6372 6372 38 1
+text8 0 633A 633A 38 1
+text9 0 63E4 63E4 3C 1
+text10 0 68E6 68E6 FA 1
+text11 0 7656 7656 2E4 1
+text12 0 6742 6742 C6 1
+text13 0 63AA 63AA 3A 1
+text14 0 6460 6460 44 1
+text15 0 66AC 66AC 96 1
+text16 0 622E 622E A 1
+text17 0 626A 626A 1A 1
+text18 0 6420 6420 40 1
+text19 0 6C34 6C34 164 1
+text20 0 6D98 6D98 188 1
+text21 0 6250 6250 1A 1
+text22 0 65CC 65CC 68 1
+text23 0 6224 6224 A 1
+text24 0 621A 621A A 1
+text25 0 6210 6210 A 1
+text26 0 62CA 62CA 24 1
+text27 0 6502 6502 64 1
+text28 0 6238 6238 18 1
+text29 0 6202 6202 4 1
+text30 0 6808 6808 DE 1
+text31 0 6206 6206 A 1
+text32 0 70C2 70C2 2B8 1
+text33 0 6634 6634 78 1
+text34 0 6AFA 6AFA 13A 1
+text35 0 62A6 62A6 24 1
+text36 0 6284 6284 22 1
+text37 0 6200 6200 2 1
 cstackCOMRAM 1 1 1 5F 1
-cstackBANK0 1 60 60 74 1
+cstackBANK0 1 60 60 71 1
 init 0 7FFC 7FFC 4 1
 reset_vec 0 0 0 4 1
-smallconst 0 1000 1000 BE 1
+mediumconst 0 7EFA 7EFA 102 1
 # %NOTES Section
 # This section contains data of all the note-psects.  The beginning of the section
 # is indicated by %NOTES. The first line indicates the name and decimal

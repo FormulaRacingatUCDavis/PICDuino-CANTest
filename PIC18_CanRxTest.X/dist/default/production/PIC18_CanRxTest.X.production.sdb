@@ -3,14 +3,21 @@
 [d edition pro ]
 [d chip 18F26K83 ]
 [d frameptr 16353 ]
-"43 /Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+"50 /Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
 [e E22962 . `ui
 VEHICLE_STATE 192
-SWITCHES 208
+BSPD_FLAGS 193
+DRIVER_SWITCHES 208
 TORQUE_REQUEST_COMMAND 1894
-BMS_STATUS 896
+BRAKE_COMMAND 1895
+BMS_STATUS_MSG 896
+PEI_CURRENT 903
 BMS_VOLTAGES 904
 BMS_TEMPERATURES 905
+MC_ESTOP 870
+MC_DEBUG 1126
+MC_PDO_SEND 1382
+MC_PDO_ACK 1638
 ]
 "1 /Applications/microchip/xc8/v2.31/pic/sources/c99/common/abs.c
 [v _abs abs `(i  1 e 2 0 ]
@@ -18,8 +25,6 @@ BMS_TEMPERATURES 905
 [v ___aodiv __aodiv `(o  1 e 8 0 ]
 "9 /Applications/microchip/xc8/v2.31/pic/sources/c99/common/aomod.c
 [v ___aomod __aomod `(o  1 e 8 0 ]
-"7 /Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-[v ___awmod __awmod `(i  1 e 2 0 ]
 "72 /Applications/microchip/xc8/v2.31/pic/sources/c99/common/doprnt.c
 [v _pad pad `(i  1 s 2 pad ]
 "287
@@ -72,16 +77,14 @@ BMS_TEMPERATURES 905
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 /Applications/microchip/xc8/v2.31/pic/sources/c99/common/Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"24 /Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+"31 /Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
 [v _main main `(v  1 e 1 0 ]
-"82
+"79
 [v _print_can_name print_can_name `(v  1 e 1 0 ]
 "63 /Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/ecan.c
 [v _WakeUpDefaultInterruptHandler WakeUpDefaultInterruptHandler `(v  1 s 1 WakeUpDefaultInterruptHandler ]
 "65
 [v _ECAN_Initialize ECAN_Initialize `(v  1 e 1 0 ]
-"165
-[v _CAN_transmit CAN_transmit `(uc  1 e 1 0 ]
 "243
 [v _CAN_receive CAN_receive `(uc  1 e 1 0 ]
 "368
@@ -136,27 +139,6 @@ BMS_TEMPERATURES 905
 [v _BRGCON3 BRGCON3 `VEuc  1 e 1 @14085 ]
 "4163
 [v _LATA LATA `VEuc  1 e 1 @16314 ]
-[s S1024 . 1 `uc 1 LATA0 1 0 :1:0 
-`uc 1 LATA1 1 0 :1:1 
-`uc 1 LATA2 1 0 :1:2 
-`uc 1 LATA3 1 0 :1:3 
-`uc 1 LATA4 1 0 :1:4 
-`uc 1 LATA5 1 0 :1:5 
-`uc 1 LATA6 1 0 :1:6 
-`uc 1 LATA7 1 0 :1:7 
-]
-"4190
-[s S1033 . 1 `uc 1 LA0 1 0 :1:0 
-`uc 1 LA1 1 0 :1:1 
-`uc 1 LA2 1 0 :1:2 
-`uc 1 LA3 1 0 :1:3 
-`uc 1 LA4 1 0 :1:4 
-`uc 1 LA5 1 0 :1:5 
-`uc 1 LA6 1 0 :1:6 
-`uc 1 LA7 1 0 :1:7 
-]
-[u S1042 . 1 `S1024 1 . 1 0 `S1033 1 . 1 0 ]
-[v _LATAbits LATAbits `VES1042  1 e 1 @16314 ]
 "4275
 [v _LATB LATB `VEuc  1 e 1 @16315 ]
 "4387
@@ -713,32 +695,30 @@ BMS_TEMPERATURES 905
 [v _UART1_OverrunErrorHandler UART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
 "60
 [v _UART1_ErrorHandler UART1_ErrorHandler `*.37(v  1 e 2 0 ]
-"24 /Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
+"31 /Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"56
-[v main@i i `uc  1 a 1 39 ]
+"67
+[v main@i i `uc  1 a 1 36 ]
 [s S245 . 14 `uc 1 idType 1 0 `ul 1 id 4 1 `uc 1 dlc 1 5 `uc 1 data0 1 6 `uc 1 data1 1 7 `uc 1 data2 1 8 `uc 1 data3 1 9 `uc 1 data4 1 10 `uc 1 data5 1 11 `uc 1 data6 1 12 `uc 1 data7 1 13 ]
-"41
-[u S257 . 14 `S245 1 frame 14 0 `[14]uc 1 array 14 0 ]
-[v main@tx_msg tx_msg `S257  1 a 14 54 ]
-"40
-[v main@msg msg `S257  1 a 14 40 ]
 "47
-[v main@count count `uc  1 a 1 38 ]
-"79
+[u S257 . 14 `S245 1 frame 14 0 `[14]uc 1 array 14 0 ]
+[v main@msg msg `S257  1 a 14 51 ]
+"48
+[v main@tx_msg tx_msg `S257  1 a 14 37 ]
+"76
 } 0
-"82
+"79
 [v _print_can_name print_can_name `(v  1 e 1 0 ]
 {
-[v print_can_name@msg_id msg_id `E22962  1 p 2 31 ]
-"103
+[v print_can_name@msg_id msg_id `E22962  1 p 2 29 ]
+"121
 } 0
 "5 /Applications/microchip/xc8/v2.31/pic/sources/c99/common/printf.c
 [v _printf printf `(i  1 e 2 0 ]
 {
 "8
-[v printf@ap ap `[1]*.39v  1 a 2 29 ]
+[v printf@ap ap `[1]*.39v  1 a 2 27 ]
 "5
 [v printf@fmt fmt `*.25Cuc  1 p 2 19 ]
 "13
@@ -748,9 +728,9 @@ BMS_TEMPERATURES 905
 {
 "1393
 [v vfprintf@cfmt cfmt `*.25uc  1 a 2 17 ]
-[s S1611 _IO_FILE 0 ]
+[s S1573 _IO_FILE 0 ]
 "1390
-[v vfprintf@fp fp `*.2S1611  1 p 2 88 ]
+[v vfprintf@fp fp `*.2S1573  1 p 2 88 ]
 [v vfprintf@fmt fmt `*.25Cuc  1 p 2 90 ]
 [v vfprintf@ap ap `*.39*.39v  1 p 2 92 ]
 "1404
@@ -764,9 +744,9 @@ BMS_TEMPERATURES 905
 [v vfpfcnvrt@ll ll `o  1 a 8 0 ]
 "694
 [v vfpfcnvrt@c c `uc  1 a 1 16 ]
-[s S1611 _IO_FILE 0 ]
+[s S1573 _IO_FILE 0 ]
 "692
-[v vfpfcnvrt@fp fp `*.2S1611  1 p 2 68 ]
+[v vfpfcnvrt@fp fp `*.2S1573  1 p 2 68 ]
 [v vfpfcnvrt@fmt fmt `*.39*.25uc  1 p 2 70 ]
 [v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 72 ]
 "1387
@@ -781,9 +761,9 @@ BMS_TEMPERATURES 905
 [v xtoa@i i `i  1 a 2 64 ]
 [v xtoa@w w `i  1 a 2 54 ]
 [v xtoa@p p `i  1 a 2 52 ]
-[s S1611 _IO_FILE 0 ]
+[s S1573 _IO_FILE 0 ]
 "645
-[v xtoa@fp fp `*.2S1611  1 p 2 29 ]
+[v xtoa@fp fp `*.2S1573  1 p 2 29 ]
 [v xtoa@d d `uo  1 p 8 31 ]
 [v xtoa@x x `uc  1 p 1 39 ]
 "687
@@ -834,9 +814,9 @@ BMS_TEMPERATURES 905
 [v dtoa@s s `i  1 a 2 53 ]
 [v dtoa@w w `i  1 a 2 51 ]
 [v dtoa@p p `i  1 a 2 49 ]
-[s S1611 _IO_FILE 0 ]
+[s S1573 _IO_FILE 0 ]
 "287
-[v dtoa@fp fp `*.2S1611  1 p 2 29 ]
+[v dtoa@fp fp `*.2S1573  1 p 2 29 ]
 [v dtoa@d d `o  1 p 8 31 ]
 "328
 } 0
@@ -846,9 +826,9 @@ BMS_TEMPERATURES 905
 "74
 [v pad@w w `i  1 a 2 27 ]
 [v pad@i i `i  1 a 2 25 ]
-[s S1611 _IO_FILE 0 ]
+[s S1573 _IO_FILE 0 ]
 "72
-[v pad@fp fp `*.2S1611  1 p 2 18 ]
+[v pad@fp fp `*.2S1573  1 p 2 18 ]
 [v pad@buf buf `*.39uc  1 p 2 20 ]
 [v pad@p p `i  1 p 2 22 ]
 "95
@@ -871,16 +851,16 @@ BMS_TEMPERATURES 905
 [v fputs@c c `uc  1 a 1 15 ]
 "8
 [v fputs@s s `*.39Cuc  1 p 2 11 ]
-[s S1594 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
-[v fputs@fp fp `*.2S1594  1 p 2 13 ]
+[s S1556 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputs@fp fp `*.2S1556  1 p 2 13 ]
 "19
 } 0
 "8 /Applications/microchip/xc8/v2.31/pic/sources/c99/common/nf_fputc.c
 [v _fputc fputc `(i  1 e 2 0 ]
 {
 [v fputc@c c `i  1 p 2 2 ]
-[s S1594 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
-[v fputc@fp fp `*.2S1594  1 p 2 4 ]
+[s S1556 _IO_FILE 6 `*.2uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputc@fp fp `*.2S1556  1 p 2 4 ]
 "24
 } 0
 "184 /Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/uart1.c
@@ -929,17 +909,6 @@ BMS_TEMPERATURES 905
 [v ___aodiv@dividend dividend `o  1 p 8 0 ]
 [v ___aodiv@divisor divisor `o  1 p 8 8 ]
 "43
-} 0
-"7 /Applications/microchip/xc8/v2.31/pic/sources/c99/common/awmod.c
-[v ___awmod __awmod `(i  1 e 2 0 ]
-{
-"10
-[v ___awmod@sign sign `uc  1 a 1 5 ]
-[v ___awmod@counter counter `uc  1 a 1 4 ]
-"7
-[v ___awmod@dividend dividend `i  1 p 2 0 ]
-[v ___awmod@divisor divisor `i  1 p 2 2 ]
-"34
 } 0
 "50 /Users/andrey/MPLABXProjects/PICDuino-CANTest/PIC18_CanRxTest.X/mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
@@ -999,39 +968,6 @@ BMS_TEMPERATURES 905
 {
 [v ECAN_SetWakeUpInterruptHandler@handler handler `*.37(v  1 p 2 0 ]
 "442
-} 0
-"165
-[v _CAN_transmit CAN_transmit `(uc  1 e 1 0 ]
-{
-"169
-[v CAN_transmit@tempSIDL tempSIDL `uc  1 a 1 24 ]
-"168
-[v CAN_transmit@tempSIDH tempSIDH `uc  1 a 1 23 ]
-"167
-[v CAN_transmit@tempEIDL tempEIDL `uc  1 a 1 22 ]
-"166
-[v CAN_transmit@tempEIDH tempEIDH `uc  1 a 1 21 ]
-"171
-[v CAN_transmit@returnValue returnValue `uc  1 a 1 20 ]
-[s S245 . 14 `uc 1 idType 1 0 `ul 1 id 4 1 `uc 1 dlc 1 5 `uc 1 data0 1 6 `uc 1 data1 1 7 `uc 1 data2 1 8 `uc 1 data3 1 9 `uc 1 data4 1 10 `uc 1 data5 1 11 `uc 1 data6 1 12 `uc 1 data7 1 13 ]
-"165
-[u S257 . 14 `S245 1 frame 14 0 `[14]uc 1 array 14 0 ]
-[v CAN_transmit@tempCanMsg tempCanMsg `*.39S257  1 p 2 18 ]
-"241
-} 0
-"402
-[v _convertCANid2Reg convertCANid2Reg `(v  1 s 1 convertCANid2Reg ]
-{
-"404
-[v convertCANid2Reg@wipSIDL wipSIDL `uc  1 a 1 17 ]
-"402
-[v convertCANid2Reg@tempPassedInID tempPassedInID `ul  1 p 4 0 ]
-[v convertCANid2Reg@canIdType canIdType `uc  1 p 1 4 ]
-[v convertCANid2Reg@passedInEIDH passedInEIDH `*.39uc  1 p 2 5 ]
-[v convertCANid2Reg@passedInEIDL passedInEIDL `*.39uc  1 p 2 7 ]
-[v convertCANid2Reg@passedInSIDH passedInSIDH `*.39uc  1 p 2 9 ]
-[v convertCANid2Reg@passedInSIDL passedInSIDL `*.39uc  1 p 2 11 ]
-"437
 } 0
 "243
 [v _CAN_receive CAN_receive `(uc  1 e 1 0 ]

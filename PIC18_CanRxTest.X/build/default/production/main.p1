@@ -11,34 +11,18 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;./mcc_generated_files/ecan.h: 62: typedef union {
 [u S3205 `S3206 1 `uc -> 14 `i ]
 [n S3205 . frame array ]
-"43 main.c
-[; ;main.c: 43:     tx_msg.frame.id = SWITCHES;
-[c E22962 192 208 1894 896 904 905 .. ]
-[n E22962 . VEHICLE_STATE SWITCHES TORQUE_REQUEST_COMMAND BMS_STATUS BMS_VOLTAGES BMS_TEMPERATURES  ]
+"50 main.c
+[; ;main.c: 50:     tx_msg.frame.id = MC_PDO_ACK;
+[c E22962 192 193 208 1894 1895 896 903 904 905 870 1126 1382 1638 .. ]
+[n E22962 . VEHICLE_STATE BSPD_FLAGS DRIVER_SWITCHES TORQUE_REQUEST_COMMAND BRAKE_COMMAND BMS_STATUS_MSG PEI_CURRENT BMS_VOLTAGES BMS_TEMPERATURES MC_ESTOP MC_DEBUG MC_PDO_SEND MC_PDO_ACK  ]
 "182 ./mcc_generated_files/ecan.h
 [; ;./mcc_generated_files/ecan.h: 182: uint8_t CAN_receive(uCAN_MSG *tempCanMsg);
 [v _CAN_receive `(uc ~T0 @X0 0 ef1`*S3205 ]
 "111 /Applications/microchip/xc8/v2.31/pic/include/c99/stdio.h
 [v _printf `(i ~T0 @X0 0 ev`*Cuc ]
-"18 main.c
-[; ;main.c: 18: void print_can_name(CAN_ID id);
+"25 main.c
+[; ;main.c: 25: void print_can_name(CAN_ID id);
 [v _print_can_name `(v ~T0 @X0 0 ef1`E22962 ]
-"158 ./mcc_generated_files/ecan.h
-[; ;./mcc_generated_files/ecan.h: 158: uint8_t CAN_transmit(uCAN_MSG *tempCanMsg);
-[v _CAN_transmit `(uc ~T0 @X0 0 ef1`*S3205 ]
-"4169 /Applications/microchip/mplabx/v6.00/packs/Microchip/PIC18F-K_DFP/1.5.114/xc8/pic/include/proc/pic18f26k83.h
-[s S3065 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S3065 . LATA0 LATA1 LATA2 LATA3 LATA4 LATA5 LATA6 LATA7 ]
-"4179
-[; ;/Applications/microchip/mplabx/v6.00/packs/Microchip/PIC18F-K_DFP/1.5.114/xc8/pic/include/proc/pic18f26k83.h: 4179: __asm("RXF15EIDL equ 0372Fh");
-[s S3066 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S3066 . LA0 LA1 LA2 LA3 LA4 LA5 LA6 LA7 ]
-"4168
-[u S3064 `S3065 1 `S3066 1 ]
-[n S3064 . . . ]
-"4190
-[; ;/Applications/microchip/mplabx/v6.00/packs/Microchip/PIC18F-K_DFP/1.5.114/xc8/pic/include/proc/pic18f26k83.h: 4190:         unsigned EID6 :1;
-[v _LATAbits `VS3064 ~T0 @X0 0 e@16314 ]
 [v F183 `(v ~T0 @X0 1 tf1`ul ]
 "12 /Applications/microchip/mplabx/v6.00/packs/Microchip/PIC18F-K_DFP/1.5.114/xc8/pic/include/builtins.h
 [v __delay `JF183 ~T0 @X0 0 e ]
@@ -3068,249 +3052,272 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;/Applications/microchip/mplabx/v6.00/packs/Microchip/PIC18F-K_DFP/1.5.114/xc8/pic/include/proc/pic18f26k83.h: 71950: __asm("TOSU equ 03FFFh");
 [; <" TOSU equ 03FFFh ;# ">
 [v $root$_main `(v ~T0 @X0 0 e ]
-"24 main.c
-[; ;main.c: 24: void main(void)
+"31 main.c
+[; ;main.c: 31: void main(void)
 [v _main `(v ~T0 @X0 1 ef ]
-"25
-[; ;main.c: 25: {
+"32
+[; ;main.c: 32: {
 {
 [e :U _main ]
 [f ]
-"28
-[; ;main.c: 28:     SYSTEM_Initialize();
+"35
+[; ;main.c: 35:     SYSTEM_Initialize();
 [e ( _SYSTEM_Initialize ..  ]
-"40
-[; ;main.c: 40:     uCAN_MSG msg;
-[v _msg `S3205 ~T0 @X0 1 a ]
-"41
-[; ;main.c: 41:     uCAN_MSG tx_msg;
-[v _tx_msg `S3205 ~T0 @X0 1 a ]
-"42
-[; ;main.c: 42:     tx_msg.frame.idType = 1;
-[e = . . _tx_msg 0 0 -> -> 1 `i `uc ]
-"43
-[; ;main.c: 43:     tx_msg.frame.id = SWITCHES;
-[e = . . _tx_msg 0 1 -> -> . `E22962 1 `l `ul ]
-"44
-[; ;main.c: 44:     tx_msg.frame.dlc = 0x01;
-[e = . . _tx_msg 0 2 -> -> 1 `i `uc ]
-"45
-[; ;main.c: 45:     tx_msg.frame.data0 = 0b10;
-[e = . . _tx_msg 0 3 -> -> 2 `i `uc ]
 "47
-[; ;main.c: 47:     uint8_t count = 0;
-[v _count `uc ~T0 @X0 1 a ]
-[e = _count -> -> 0 `i `uc ]
+[; ;main.c: 47:     uCAN_MSG msg;
+[v _msg `S3205 ~T0 @X0 1 a ]
+"48
+[; ;main.c: 48:     uCAN_MSG tx_msg;
+[v _tx_msg `S3205 ~T0 @X0 1 a ]
 "49
-[; ;main.c: 49:     while (1)
-[e :U 3209 ]
+[; ;main.c: 49:     tx_msg.frame.idType = 1;
+[e = . . _tx_msg 0 0 -> -> 1 `i `uc ]
 "50
-[; ;main.c: 50:     {
-{
+[; ;main.c: 50:     tx_msg.frame.id = MC_PDO_ACK;
+[e = . . _tx_msg 0 1 -> -> . `E22962 12 `l `ul ]
 "51
-[; ;main.c: 51:         if(CAN_receive(&msg)){
+[; ;main.c: 51:     tx_msg.frame.dlc = 0x08;
+[e = . . _tx_msg 0 2 -> -> 8 `i `uc ]
+"52
+[; ;main.c: 52:     tx_msg.frame.data0 = 0;
+[e = . . _tx_msg 0 3 -> -> 0 `i `uc ]
+"60
+[; ;main.c: 60:     while (1)
+[e :U 3209 ]
+"61
+[; ;main.c: 61:     {
+{
+"62
+[; ;main.c: 62:         if (CAN_receive(&msg)) {
 [e $ ! != -> ( _CAN_receive (1 &U _msg `i -> 0 `i 3211  ]
 {
-"52
-[; ;main.c: 52:             printf("CAN Message received: ");
+"63
+[; ;main.c: 63:             printf("CAN Message received: ");
 [e ( _printf :s 1C ]
-"53
-[; ;main.c: 53:             print_can_name(msg.frame.id);
+"64
+[; ;main.c: 64:             print_can_name(msg.frame.id);
 [e ( _print_can_name (1 -> . . _msg 0 1 `E22962 ]
-"54
-[; ;main.c: 54:             printf("\n");
+"65
+[; ;main.c: 65:             printf("\n");
 [e ( _printf :s 2C ]
-"55
-[; ;main.c: 55:             printf("ID: 0x%lx\n", msg.frame.id);
+"66
+[; ;main.c: 66:             printf("ID: 0x%lx\n", msg.frame.id);
 [e ( _printf , (. :s 3C . . _msg 0 1 ]
-"56
-[; ;main.c: 56:             for(uint8_t i = 0; i < msg.frame.dlc; i++){
+"67
+[; ;main.c: 67:             for(uint8_t i = 0; i < msg.frame.dlc; i++){
 {
 [v _i `uc ~T0 @X0 1 a ]
 [e = _i -> -> 0 `i `uc ]
 [e $U 3215  ]
 [e :U 3212 ]
 {
-"57
-[; ;main.c: 57:                 printf("data%d: %d\n", i, msg.array[i+6]);
+"68
+[; ;main.c: 68:                 printf("data%d: %d\n", i, msg.array[i+6]);
 [e ( _printf , , (. :s 4C -> _i `i -> *U + &U . _msg 1 * -> -> + -> _i `i -> 6 `i `ui `ux -> -> # *U &U . _msg 1 `ui `ux `i ]
-"58
-[; ;main.c: 58:             }
+"69
+[; ;main.c: 69:             }
 }
 [e ++ _i -> -> 1 `i `uc ]
 [e :U 3215 ]
 [e $ < -> _i `i -> . . _msg 0 2 `i 3212  ]
 [e :U 3213 ]
 }
-"59
-[; ;main.c: 59:             printf("\n");
+"70
+[; ;main.c: 70:             printf("\n");
 [e ( _printf :s 5C ]
-"60
-[; ;main.c: 60:         } else {
+"71
+[; ;main.c: 71:         } else {
 }
 [e $U 3216  ]
 [e :U 3211 ]
 {
-"61
-[; ;main.c: 61:             printf("No Message received:\n");
+"72
+[; ;main.c: 72:             printf("No Message received:\n");
 [e ( _printf :s 6C ]
-"62
-[; ;main.c: 62:         }
+"73
+[; ;main.c: 73:         }
 }
 [e :U 3216 ]
-"65
-[; ;main.c: 65:         if (!(count % 100)) {
-[e $ ! ! != % -> _count `i -> 100 `i -> 0 `i 3217  ]
-{
-"66
-[; ;main.c: 66:             if(CAN_transmit(&tx_msg)){
-[e $ ! != -> ( _CAN_transmit (1 &U _tx_msg `i -> 0 `i 3218  ]
-{
-"67
-[; ;main.c: 67:                 do { LATAbits.LATA0 = ~LATAbits.LATA0; } while(0);
-[e :U 3221 ]
-{
-[e = . . _LATAbits 0 0 -> ~ -> . . _LATAbits 0 0 `i `uc ]
-}
-[e :U 3220 ]
-"68
-[; ;main.c: 68:                 printf("Sending %d on ID: 0x%lx\n", tx_msg.frame.data0, tx_msg.frame.id);
-[e ( _printf , , (. :s 7C -> . . _tx_msg 0 3 `i . . _tx_msg 0 1 ]
-"69
-[; ;main.c: 69:             }
-}
-[e :U 3218 ]
-"70
-[; ;main.c: 70:             if (tx_msg.frame.data0 == 0b10) {
-[e $ ! == -> . . _tx_msg 0 3 `i -> 2 `i 3222  ]
-{
-"71
-[; ;main.c: 71:                 tx_msg.frame.data0 = 0;
-[e = . . _tx_msg 0 3 -> -> 0 `i `uc ]
-"72
-[; ;main.c: 72:             } else {
-}
-[e $U 3223  ]
-[e :U 3222 ]
-{
-"73
-[; ;main.c: 73:                 tx_msg.frame.data0 = 0b10;
-[e = . . _tx_msg 0 3 -> -> 2 `i `uc ]
 "74
-[; ;main.c: 74:             }
-}
-[e :U 3223 ]
-"75
-[; ;main.c: 75:         }
-}
-[e :U 3217 ]
-"76
-[; ;main.c: 76:         count++;
-[e ++ _count -> -> 1 `i `uc ]
-"77
-[; ;main.c: 77:         _delay((unsigned long)((100)*(64000000/4000.0)));
+[; ;main.c: 74:         _delay((unsigned long)((100)*(64000000/4000.0)));
 [e ( __delay (1 -> * -> -> 100 `i `d / -> -> 64000000 `l `d .4000.0 `ul ]
-"78
-[; ;main.c: 78:     }
+"75
+[; ;main.c: 75:     }
 }
 [e :U 3208 ]
 [e $U 3209  ]
 [e :U 3210 ]
-"79
-[; ;main.c: 79: }
+"76
+[; ;main.c: 76: }
 [e :UE 3207 ]
 }
-"82
-[; ;main.c: 82: void print_can_name(CAN_ID msg_id) {
+"79
+[; ;main.c: 79: void print_can_name(CAN_ID msg_id) {
 [v _print_can_name `(v ~T0 @X0 1 ef1`E22962 ]
 {
 [e :U _print_can_name ]
 [v _msg_id `E22962 ~T0 @X0 1 r1 ]
 [f ]
-"83
-[; ;main.c: 83:     switch(msg_id) {
-[e $U 3226  ]
+"80
+[; ;main.c: 80:     switch(msg_id) {
+[e $U 3219  ]
 {
+"81
+[; ;main.c: 81:         case VEHICLE_STATE:
+[e :U 3220 ]
+"82
+[; ;main.c: 82:             printf("VEHICLE_STATE");
+[e ( _printf :s 7C ]
+"83
+[; ;main.c: 83:             break;
+[e $U 3218  ]
 "84
-[; ;main.c: 84:         case VEHICLE_STATE:
-[e :U 3227 ]
+[; ;main.c: 84:         case BSPD_FLAGS:
+[e :U 3221 ]
 "85
-[; ;main.c: 85:             printf("Vehicle_State");
+[; ;main.c: 85:             printf("BSPD_FLAGS");
 [e ( _printf :s 8C ]
 "86
 [; ;main.c: 86:             break;
-[e $U 3225  ]
+[e $U 3218  ]
 "87
-[; ;main.c: 87:         case SWITCHES:
-[e :U 3228 ]
+[; ;main.c: 87:         case DRIVER_SWITCHES:
+[e :U 3222 ]
 "88
-[; ;main.c: 88:             printf("Driver_Switches");
+[; ;main.c: 88:             printf("DRIVER_SWITCHES");
 [e ( _printf :s 9C ]
 "89
 [; ;main.c: 89:             break;
-[e $U 3225  ]
+[e $U 3218  ]
 "90
 [; ;main.c: 90:         case TORQUE_REQUEST_COMMAND:
-[e :U 3229 ]
+[e :U 3223 ]
 "91
-[; ;main.c: 91:             printf("Torque_Request_Command");
+[; ;main.c: 91:             printf("TORQUE_REQUEST_COMMAND");
 [e ( _printf :s 10C ]
 "92
 [; ;main.c: 92:             break;
-[e $U 3225  ]
+[e $U 3218  ]
 "93
-[; ;main.c: 93:         case BMS_STATUS:
-[e :U 3230 ]
+[; ;main.c: 93:         case BRAKE_COMMAND:
+[e :U 3224 ]
 "94
-[; ;main.c: 94:             printf("BMS_Status");
+[; ;main.c: 94:             printf("BRAKE_COMMAND");
 [e ( _printf :s 11C ]
 "95
 [; ;main.c: 95:             break;
-[e $U 3225  ]
+[e $U 3218  ]
 "96
-[; ;main.c: 96:         case BMS_VOLTAGES:
-[e :U 3231 ]
+[; ;main.c: 96:         case BMS_STATUS_MSG:
+[e :U 3225 ]
 "97
-[; ;main.c: 97:             printf("BMS_Voltages");
+[; ;main.c: 97:             printf("BMS_STATUS_MSG");
 [e ( _printf :s 12C ]
 "98
 [; ;main.c: 98:             break;
-[e $U 3225  ]
+[e $U 3218  ]
 "99
-[; ;main.c: 99:         case BMS_TEMPERATURES:
-[e :U 3232 ]
+[; ;main.c: 99:         case PEI_CURRENT:
+[e :U 3226 ]
 "100
-[; ;main.c: 100:             printf("BMS_Temperatures");
+[; ;main.c: 100:             printf("PEI_CURRENT");
 [e ( _printf :s 13C ]
 "101
 [; ;main.c: 101:             break;
-[e $U 3225  ]
+[e $U 3218  ]
 "102
-[; ;main.c: 102:     }
-}
-[e $U 3225  ]
-[e :U 3226 ]
-[e [\ -> _msg_id `ui , $ -> . `E22962 0 `ui 3227
- , $ -> . `E22962 1 `ui 3228
- , $ -> . `E22962 2 `ui 3229
- , $ -> . `E22962 3 `ui 3230
- , $ -> . `E22962 4 `ui 3231
- , $ -> . `E22962 5 `ui 3232
- 3225 ]
-[e :U 3225 ]
+[; ;main.c: 102:         case BMS_VOLTAGES:
+[e :U 3227 ]
 "103
-[; ;main.c: 103: }
-[e :UE 3224 ]
+[; ;main.c: 103:             printf("BMS_VOLTAGES");
+[e ( _printf :s 14C ]
+"104
+[; ;main.c: 104:             break;
+[e $U 3218  ]
+"105
+[; ;main.c: 105:         case BMS_TEMPERATURES:
+[e :U 3228 ]
+"106
+[; ;main.c: 106:             printf("BMS_TEMPERATURES");
+[e ( _printf :s 15C ]
+"107
+[; ;main.c: 107:             break;
+[e $U 3218  ]
+"108
+[; ;main.c: 108:         case MC_ESTOP:
+[e :U 3229 ]
+"109
+[; ;main.c: 109:             printf("MC_ESTOP");
+[e ( _printf :s 16C ]
+"110
+[; ;main.c: 110:             break;
+[e $U 3218  ]
+"111
+[; ;main.c: 111:         case MC_DEBUG:
+[e :U 3230 ]
+"112
+[; ;main.c: 112:             printf("MC_DEBUG");
+[e ( _printf :s 17C ]
+"113
+[; ;main.c: 113:             break;
+[e $U 3218  ]
+"114
+[; ;main.c: 114:         case MC_PDO_SEND:
+[e :U 3231 ]
+"115
+[; ;main.c: 115:             printf("MC_PDO_SEND");
+[e ( _printf :s 18C ]
+"116
+[; ;main.c: 116:             break;
+[e $U 3218  ]
+"117
+[; ;main.c: 117:         case MC_PDO_ACK:
+[e :U 3232 ]
+"118
+[; ;main.c: 118:             printf("MC_PDO_ACK");
+[e ( _printf :s 19C ]
+"119
+[; ;main.c: 119:             break;
+[e $U 3218  ]
+"120
+[; ;main.c: 120:     }
+}
+[e $U 3218  ]
+[e :U 3219 ]
+[e [\ -> _msg_id `ui , $ -> . `E22962 0 `ui 3220
+ , $ -> . `E22962 1 `ui 3221
+ , $ -> . `E22962 2 `ui 3222
+ , $ -> . `E22962 3 `ui 3223
+ , $ -> . `E22962 4 `ui 3224
+ , $ -> . `E22962 5 `ui 3225
+ , $ -> . `E22962 6 `ui 3226
+ , $ -> . `E22962 7 `ui 3227
+ , $ -> . `E22962 8 `ui 3228
+ , $ -> . `E22962 9 `ui 3229
+ , $ -> . `E22962 10 `ui 3230
+ , $ -> . `E22962 11 `ui 3231
+ , $ -> . `E22962 12 `ui 3232
+ 3218 ]
+[e :U 3218 ]
+"121
+[; ;main.c: 121: }
+[e :UE 3217 ]
 }
 [p f _printf 12583056 ]
-[a 11C 66 77 83 95 83 116 97 116 117 115 0 ]
-[a 13C 66 77 83 95 84 101 109 112 101 114 97 116 117 114 101 115 0 ]
-[a 9C 68 114 105 118 101 114 95 83 119 105 116 99 104 101 115 0 ]
-[a 12C 66 77 83 95 86 111 108 116 97 103 101 115 0 ]
-[a 8C 86 101 104 105 99 108 101 95 83 116 97 116 101 0 ]
-[a 10C 84 111 114 113 117 101 95 82 101 113 117 101 115 116 95 67 111 109 109 97 110 100 0 ]
+[a 13C 80 69 73 95 67 85 82 82 69 78 84 0 ]
+[a 8C 66 83 80 68 95 70 76 65 71 83 0 ]
+[a 15C 66 77 83 95 84 69 77 80 69 82 65 84 85 82 69 83 0 ]
+[a 9C 68 82 73 86 69 82 95 83 87 73 84 67 72 69 83 0 ]
+[a 14C 66 77 83 95 86 79 76 84 65 71 69 83 0 ]
+[a 16C 77 67 95 69 83 84 79 80 0 ]
+[a 19C 77 67 95 80 68 79 95 65 67 75 0 ]
+[a 17C 77 67 95 68 69 66 85 71 0 ]
+[a 12C 66 77 83 95 83 84 65 84 85 83 95 77 83 71 0 ]
+[a 7C 86 69 72 73 67 76 69 95 83 84 65 84 69 0 ]
+[a 18C 77 67 95 80 68 79 95 83 69 78 68 0 ]
+[a 10C 84 79 82 81 85 69 95 82 69 81 85 69 83 84 95 67 79 77 77 65 78 68 0 ]
+[a 11C 66 82 65 75 69 95 67 79 77 77 65 78 68 0 ]
 [a 1C 67 65 78 32 77 101 115 115 97 103 101 32 114 101 99 101 105 118 101 100 58 32 0 ]
-[a 7C 83 101 110 100 105 110 103 32 37 100 32 111 110 32 73 68 58 32 48 120 37 108 120 10 0 ]
 [a 3C 73 68 58 32 48 120 37 108 120 10 0 ]
 [a 4C 100 97 116 97 37 100 58 32 37 100 10 0 ]
 [a 6C 78 111 32 77 101 115 115 97 103 101 32 114 101 99 101 105 118 101 100 58 10 0 ]

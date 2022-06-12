@@ -36676,11 +36676,18 @@ void PMD_Initialize(void);
 
 typedef enum {
     VEHICLE_STATE = 0x0c0,
-    SWITCHES = 0x0d0,
+    BSPD_FLAGS = 0x0c1,
+    DRIVER_SWITCHES = 0x0d0,
     TORQUE_REQUEST_COMMAND = 0x766,
-    BMS_STATUS = 0x380,
+    BRAKE_COMMAND = 0x767,
+    BMS_STATUS_MSG = 0x380,
+    PEI_CURRENT = 0x387,
     BMS_VOLTAGES = 0x388,
-    BMS_TEMPERATURES = 0x389
+    BMS_TEMPERATURES = 0x389,
+    MC_ESTOP = 0x366,
+    MC_DEBUG = 0x466,
+    MC_PDO_SEND = 0x566,
+    MC_PDO_ACK = 0x666
 } CAN_ID;
 
 
@@ -36695,19 +36702,23 @@ void main(void)
 
 
     SYSTEM_Initialize();
-# 40 "main.c"
+# 47 "main.c"
     uCAN_MSG msg;
     uCAN_MSG tx_msg;
     tx_msg.frame.idType = 1;
-    tx_msg.frame.id = SWITCHES;
-    tx_msg.frame.dlc = 0x01;
-    tx_msg.frame.data0 = 0b10;
+    tx_msg.frame.id = MC_PDO_ACK;
+    tx_msg.frame.dlc = 0x08;
+    tx_msg.frame.data0 = 0;
 
-    uint8_t count = 0;
+
+
+
+
+
 
     while (1)
     {
-        if(CAN_receive(&msg)){
+        if (CAN_receive(&msg)) {
             printf("CAN Message received: ");
             print_can_name(msg.frame.id);
             printf("\n");
@@ -36719,20 +36730,6 @@ void main(void)
         } else {
             printf("No Message received:\n");
         }
-
-
-        if (!(count % 100)) {
-            if(CAN_transmit(&tx_msg)){
-                do { LATAbits.LATA0 = ~LATAbits.LATA0; } while(0);
-                printf("Sending %d on ID: 0x%lx\n", tx_msg.frame.data0, tx_msg.frame.id);
-            }
-            if (tx_msg.frame.data0 == 0b10) {
-                tx_msg.frame.data0 = 0;
-            } else {
-                tx_msg.frame.data0 = 0b10;
-            }
-        }
-        count++;
         _delay((unsigned long)((100)*(64000000/4000.0)));
     }
 }
@@ -36741,22 +36738,43 @@ void main(void)
 void print_can_name(CAN_ID msg_id) {
     switch(msg_id) {
         case VEHICLE_STATE:
-            printf("Vehicle_State");
+            printf("VEHICLE_STATE");
             break;
-        case SWITCHES:
-            printf("Driver_Switches");
+        case BSPD_FLAGS:
+            printf("BSPD_FLAGS");
+            break;
+        case DRIVER_SWITCHES:
+            printf("DRIVER_SWITCHES");
             break;
         case TORQUE_REQUEST_COMMAND:
-            printf("Torque_Request_Command");
+            printf("TORQUE_REQUEST_COMMAND");
             break;
-        case BMS_STATUS:
-            printf("BMS_Status");
+        case BRAKE_COMMAND:
+            printf("BRAKE_COMMAND");
+            break;
+        case BMS_STATUS_MSG:
+            printf("BMS_STATUS_MSG");
+            break;
+        case PEI_CURRENT:
+            printf("PEI_CURRENT");
             break;
         case BMS_VOLTAGES:
-            printf("BMS_Voltages");
+            printf("BMS_VOLTAGES");
             break;
         case BMS_TEMPERATURES:
-            printf("BMS_Temperatures");
+            printf("BMS_TEMPERATURES");
+            break;
+        case MC_ESTOP:
+            printf("MC_ESTOP");
+            break;
+        case MC_DEBUG:
+            printf("MC_DEBUG");
+            break;
+        case MC_PDO_SEND:
+            printf("MC_PDO_SEND");
+            break;
+        case MC_PDO_ACK:
+            printf("MC_PDO_ACK");
             break;
     }
 }
